@@ -87,7 +87,8 @@
               "title": "Software Ethics"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -208,12 +209,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Hypothesis Testing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Hypothesis Testing"
             }
           },
           {
@@ -259,6 +261,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
       "companion:Toggle completion": false,
       "zk-prefixer:Create new unique note": false,
@@ -271,7 +274,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61ffe454889d64f0",
+  "active": "51007ddd6e7851dc",
   "lastOpenFiles": [
     "Haskell.md",
     "Anchor Seminor 8/28",
