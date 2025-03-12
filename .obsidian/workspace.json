@@ -273,6 +273,7 @@
   },
   "active": "8e869af480e43e7a",
   "lastOpenFiles": [
+    "Functions in Haskell.md",
     "Lists in Haskell.md",
     "Paradigms.md",
     "Transform Analysis.md",
@@ -317,7 +318,6 @@
     "Confidence Interval for Population Proportions.md",
     "Z-Table.md",
     "Confidence Intervals.md",
-    "Z-Confidence Intervals.md",
-    "Principle Component Analysis.md"
+    "Z-Confidence Intervals.md"
   ]
 }

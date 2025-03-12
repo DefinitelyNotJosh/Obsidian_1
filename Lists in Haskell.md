@@ -21,6 +21,12 @@ Expressions:
 lambda x: x * 2
 ```
 
+```
+square :: Int -> Int
+square \x -> x * x
+```
+
+
 Everything that can be done with a turing machine can be done with lambda calculus and vise versa
 
 Alonzo Church in the 1930's asked the question what is a function - answer - takes an input and gives back an output
@@ -33,4 +39,6 @@ When we call a function, we replace the argument with the value
 
 Can do $$(\lambda x. x^2 +2x+1) ~5=5^2+2*5+1$$
 #### Example $$(\lambda x. x+x)((\lambda y. y+y)~3)$$ Order of evaluation generally doesn't matter - end up with 12
+
+### Sometimes it does, if you run out of arguments: reduce from left to right if possible $$(\lambda f.(\lambda x. f~x))(\lambda y. 2*y)~3$$
 
