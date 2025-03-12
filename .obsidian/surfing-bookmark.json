@@ -1,0 +1,36 @@
+{
+  "bookmarks": [
+    {
+      "id": "-1702389814",
+      "name": "Sign in to your account",
+      "url": "https://learning.up.edu/my/courses.php",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1741801303770,
+      "modified": 1741801303770
+    },
+    {
+      "id": "824168250",
+      "name": "Course: EGR-361A - sp25 - Analysis of Engineering Data | Moodle",
+      "url": "https://learning.up.edu/auth/oidc/",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1741800977950,
+      "modified": 1741800977950
+    }
+  ],
+  "categories": [
+    {
+      "value": "ROOT",
+      "text": "ROOT",
+      "label": "ROOT",
+      "children": []
+    }
+  ]
+}

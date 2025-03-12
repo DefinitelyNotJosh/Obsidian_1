@@ -86,38 +86,21 @@
               "icon": "lucide-file",
               "title": "Software Ethics"
             }
-          }
-        ],
-        "currentTab": 5
-      },
-      {
-        "id": "9826873b206c0667",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "dee8b533a4d7ac5f",
+            "id": "0258805000050013",
             "type": "leaf",
             "state": {
               "type": "surfing-view",
               "state": {
-                "url": "https://learn.zybooks.com/zybook/UPEGR361ZuendelWinter2025/chapter/14/section/2"
+                "url": "https://www.youtube.com/watch?v=o87r4YYxpVk"
               },
               "icon": "lucide-file",
-              "title": "Section 14.2 - EGR 361: Analysis of Engineering Data | zyBooks"
-            }
-          },
-          {
-            "id": "964da4d147304189",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-bookmark-manager",
-              "state": {},
-              "icon": "album",
-              "title": "Surfing Bookmark Manager"
+              "title": "Obsidian Surfing: Surf the Web Within Obsidian - YouTube"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -291,7 +274,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "surfing:surfing-bookmark-manager": false,
       "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
       "companion:Toggle completion": false,
@@ -305,10 +287,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "964da4d147304189",
+  "active": "0258805000050013",
   "lastOpenFiles": [
     "Software Ethics.md",
-    "T-Confidence Intervals - T-Test.md",
     "Hypothesis Testing.md",
     "Haskell.md",
     "Anchor Seminor 8/28",
@@ -328,6 +309,7 @@
     "Pasted image 20250311145307.png",
     "Machine Learning.md",
     "Z-Test.md",
+    "T-Confidence Intervals - T-Test.md",
     "Software Engineering.md",
     "Ethics.md",
     "Functional Programming.md",
