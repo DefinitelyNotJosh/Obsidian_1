@@ -22,7 +22,6 @@ In some form or another, functions are basis for everything
 - Can pass functions as arguments
 - Can return functions from other functions
 
-
 #### Example of a higher order function in Haskell:
 - `map` function: applies a given function to each element of a list
 - `filter` function: takes a predicate function and a list, returning a new list with elements that satisfy the predicate
@@ -33,4 +32,4 @@ filter :: (a -> Bool) -> [a] -> [a]
 - Use of lambda functions as arguments to higher-order functions
 
 
-#### Another example of a higher order function in Haskell: 
+Implementation of a higher order function in haskell: 
