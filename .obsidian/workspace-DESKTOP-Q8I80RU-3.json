@@ -255,7 +255,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -271,7 +271,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61ffe454889d64f0",
+  "active": "5a76b56b11042aba",
   "lastOpenFiles": [
     "Haskell.md",
     "Anchor Seminor 8/28",
