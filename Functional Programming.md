@@ -32,4 +32,3 @@ filter :: (a -> Bool) -> [a] -> [a]
 - Use of lambda functions as arguments to higher-order functions
 
 
-Implementation of a higher order function in haskell: 
