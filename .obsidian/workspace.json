@@ -105,19 +105,8 @@
               "icon": "lucide-file",
               "title": "Section 14.2 - EGR 361: Analysis of Engineering Data | zyBooks"
             }
-          },
-          {
-            "id": "964da4d147304189",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-bookmark-manager",
-              "state": {},
-              "icon": "album",
-              "title": "Surfing Bookmark Manager"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -305,7 +294,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "964da4d147304189",
+  "active": "dee8b533a4d7ac5f",
   "lastOpenFiles": [
     "Software Ethics.md",
     "T-Confidence Intervals - T-Test.md",

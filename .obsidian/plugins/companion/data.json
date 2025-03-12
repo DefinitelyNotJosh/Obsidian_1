@@ -16,7 +16,9 @@
   "provider_settings": {
     "groq": {
       "settings": "{\"api_key\":\"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\"}",
-      "models": {}
+      "models": {
+        "llama-3.3-70b-versatile": "{\"system_prompt\":\"\",\"user_prompt\":\"{{#context}}Context:\\n\\n{{context}}\\n\\n=================================\\n{{/context}}Do not start with \\\"...\\\". Continue the following paragraph:\\n\\n{{last_line}}\",\"max_tokens\":100}"
+      }
     }
   },
   "presets": [],
