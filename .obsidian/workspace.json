@@ -273,6 +273,7 @@
   },
   "active": "8e869af480e43e7a",
   "lastOpenFiles": [
+    "Paradigms.md",
     "Transform Analysis.md",
     "Dimensionality Reduction.md",
     "Machine Learning.md",
@@ -317,7 +318,6 @@
     "Confidence Intervals.md",
     "Z-Confidence Intervals.md",
     "Principle Component Analysis.md",
-    "Artificial Neural Networks.md",
-    "OOP Implementation.md"
+    "Artificial Neural Networks.md"
   ]
 }

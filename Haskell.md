@@ -115,4 +115,7 @@ Key points to note:
   * Processing lists in batches 
 
 
-
+Functional programming is useful because it promotes code reusability and simplicity. Key benefits include:
+- Immutable data structures
+- Easier debugging
+- Improved composability 
