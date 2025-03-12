@@ -25,5 +25,12 @@ Everything that can be done with a turing machine can be done with lambda calcul
 
 Alonzo Church in the 1930's asked the question what is a function - answer - takes an input and gives back an output
 
-#### New notation for functions: $$\lambda x.e$$ this is a function that takes a variable called and returns an e
+#### New notation for functions: $$\lambda x.e$$ this is a function that takes a variable called and returns an e $$f(x)=x^2+2x+1 \text{  is equivalent to } f = \lambda x. x^2+2x+1$$ now, $f$ is just an ordinary variable, and functions are just objects we can use
+
+What can I do with a function? Call the function
+- This is function application
+When we call a function, we replace the argument with the value
+
+Can do $$(\lambda x. x^2 +2x+1) ~5=5^2+2*5+1$$
+#### Example $$(\lambda x. x+x)((\lambda y. y+y)~3)$$ Order of evaluation generally doesn't matter - end up with 12
 
