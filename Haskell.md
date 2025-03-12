@@ -78,3 +78,22 @@ addCommas = reverse
 		  . reverse
 ```
 
+Haskell 'group' implementation: 
+```
+group :: Int -> [a] -> [[a]]
+group _ [] = []
+group n xs = take n xs : group n (drop n xs)
+```
+
+Key points to note:
+* Pattern matching for empty list
+* Recursive call with dropped list
+* Using take and drop functions 
+* Example use case: `group 3 [1,2,3,4,5,6,7,8,9]`
+* Use cases for group function:
+  * Splitting lists into chunks
+  * Formatting data into groups
+  * Processing lists in batches 
+
+
+
