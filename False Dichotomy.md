@@ -1,0 +1,1 @@
+### Involves a disjunctive statement(either/or) that is false because the arguer has not considered all the alternatives

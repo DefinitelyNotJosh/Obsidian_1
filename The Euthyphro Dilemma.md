@@ -1,0 +1,2 @@
+### The dilemma being if what the Gods decide what is [[Piety]] versus if what is pious is pious just because
+- The dilemma is that either way you define it, reality is either arbitrary or there is no real definition of what is pious

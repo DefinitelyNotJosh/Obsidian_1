@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "3b64970a8b46becd",
+    "type": "split",
+    "children": [
+      {
+        "id": "d37141121a306cb9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30ee47647ab4635f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Power Function.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9a6a6fa55c18c7e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "d182e654cc1e0513",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d35ccc6df07676f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5c79fdef7b21a2f4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fcc4945b3c9cfc1f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cc9b55be5114c784",
+    "type": "split",
+    "children": [
+      {
+        "id": "94d5caa59ece194f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8dd9a9ee7401d4a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Power Function.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b9c4e46e3d8463ac",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Power Function.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6a6e57a69c6ac8c1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4ff195eb35e07f1d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Power Function.md"
+              }
+            }
+          },
+          {
+            "id": "373fadb1985f824e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "fa7de53381ee6e71",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "zk-prefixer:Create new unique note": false,
+      "audio-recorder:Start/stop recording": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "30ee47647ab4635f",
+  "lastOpenFiles": [
+    "Jump Discontinuity.md",
+    "Class Types.md",
+    "Operators.md",
+    "Java.md",
+    "Power Rule.md",
+    "202309112135.md",
+    "Recording 20230911213503.webm",
+    "Power Function.md",
+    "PHL-150 Paper Guidelines.md",
+    "Deductive Argument.md",
+    "Arguments.md",
+    "Inductive Argument.md",
+    "Object.md",
+    "Graphics.md",
+    "Derivative at a point.md",
+    "If Statements.md",
+    "Crito.md",
+    "Formalization.md",
+    "Pasted image 20230906111020.png",
+    "String.md",
+    "Instantaneous velocity.md",
+    "Velocity.md",
+    "Average Velocity.md",
+    "Secant.md",
+    "Speed.md",
+    "Squeeze Theorem.md",
+    "Socrates.md",
+    "Socratic Method.md",
+    "Pasted image 20230830160503.png",
+    "Pasted image 20230830160432.png",
+    "Anchor Seminor 8/28",
+    "Anchor Seminor 8",
+    "PHL-150-fa23",
+    "CS-273-fa23",
+    "Untitled",
+    "CS-203-fa23",
+    "MTH-201-fa23",
+    "CS203-fa23",
+    "CORE-101E-fa23"
+  ]
+}

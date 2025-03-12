@@ -1,0 +1,1 @@
+### Fallacy of Pathos, that one's emotions, urges or "feelings" are innate and in every case self-validating, autonomous, and above any human intent or act of will (one's own or others'), and are thus immune to challenge or criticism

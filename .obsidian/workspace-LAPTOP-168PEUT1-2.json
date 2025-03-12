@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "3b64970a8b46becd",
+    "type": "split",
+    "children": [
+      {
+        "id": "77f477afc1396f91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "352a2514da949bc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Euthyphro Dilemma.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9a6a6fa55c18c7e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "d182e654cc1e0513",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d35ccc6df07676f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5c79fdef7b21a2f4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fcc4945b3c9cfc1f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cc9b55be5114c784",
+    "type": "split",
+    "children": [
+      {
+        "id": "94d5caa59ece194f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8dd9a9ee7401d4a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "The Euthyphro Dilemma.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b9c4e46e3d8463ac",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "The Euthyphro Dilemma.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6a6e57a69c6ac8c1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4ff195eb35e07f1d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "The Euthyphro Dilemma.md"
+              }
+            }
+          },
+          {
+            "id": "8e61e643c9bde291",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "zk-prefixer:Create new unique note": false,
+      "audio-recorder:Start/stop recording": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "352a2514da949bc4",
+  "lastOpenFiles": [
+    "Euthyphro.md",
+    "The Euthyphro Dilemma.md",
+    "Essence Requirement.md",
+    "Generality Requirement.md",
+    "Coherence Requirement.md",
+    "Piety.md",
+    "Athens.md",
+    "Pitthean deme.md",
+    "Meletus.md",
+    "Epistemology.md",
+    "Jump Discontinuity.md",
+    "Limits (Calculus).md",
+    "Plato.md",
+    "Socrates.md",
+    "Intermediate Value Theorem.md",
+    "Limits agree.md",
+    "Lycon.md",
+    "Functions divided over X.md",
+    "CS-203 late policy.md",
+    "Piecewise Functions.md",
+    "Pasted image 20230829085746.png",
+    "Obsidian Note Tips.md",
+    "Metaphysics.md",
+    "Indeterminate Form.md",
+    "Topologists Sine Curve.md",
+    "Removable Discontinuity.md",
+    "Philosophy Subdivisions.md",
+    "Anchor Seminor 8/28",
+    "Anchor Seminor 8",
+    "PHL-150-fa23",
+    "CS-273-fa23",
+    "Untitled",
+    "CS-203-fa23",
+    "MTH-201-fa23",
+    "CS203-fa23",
+    "CORE-101E-fa23",
+    "CORE-101E-fa3w4"
+  ]
+}

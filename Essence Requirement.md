@@ -1,0 +1,1 @@
+### Does a definition define the essence of an idea?

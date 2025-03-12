@@ -1,0 +1,1 @@
+### Arguer appeals to popular approval to gain acceptance of conclusion, only believing something because it is popular or prevalent

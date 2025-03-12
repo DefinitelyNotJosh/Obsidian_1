@@ -1,0 +1,1 @@
+### Distorts the opponent's argument and then criticizes the distorted argument, then claims to have defeated the original argument

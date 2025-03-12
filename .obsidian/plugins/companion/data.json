@@ -1,0 +1,24 @@
+{
+  "provider": "groq",
+  "model": "llama-3.3-70b-versatile",
+  "enable_by_default": true,
+  "keybind": "Tab",
+  "delay_ms": 1300,
+  "stream": true,
+  "accept": {
+    "splitter_regex": "\\.",
+    "display_splitter_regex": "[.?!:;]",
+    "completion_completeness_regex": ".*[^d]$",
+    "min_accept_length": 4,
+    "min_display_length": 50,
+    "retrigger_threshold": 128
+  },
+  "provider_settings": {
+    "groq": {
+      "settings": "{\"api_key\":\"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\"}",
+      "models": {}
+    }
+  },
+  "presets": [],
+  "fallback": null
+}

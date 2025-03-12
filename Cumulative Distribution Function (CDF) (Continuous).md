@@ -1,0 +1,4 @@
+Probability that for any number $x$, the observed value of the random variable will be at most $x$ or $p(X \leq x)$. 
+- Ex - when Casey does housework, CDF describes probability of Casey finishing in time less than or equal to any value $x$ such that the probability $X$ is less that or equal to 1.5. The notation $F(x)$ is typically used for the CDF of $X$, in contrast to lower-case $f(x)$ for the [[Probability Density Function (PDF) (Continuous)]]. 
+- $F(1.5)=P(X \leq 1.5)$ is read "the probability of $X$ is less than or equal to 1.5"
+- Just like discrete random variables, the CDF always starts at 0 and ends at 1 and never decreases as $X$ increases. May approach limits of 0 and 1 in cases where the possible values of $x$ are infinite.

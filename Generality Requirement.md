@@ -1,0 +1,1 @@
+### A definition that covers everything within its concept, doesn't use an example as a definition

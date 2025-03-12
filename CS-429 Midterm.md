@@ -1,0 +1,1 @@
+Double sided note sheet hand written, Study labs and the math associated, finish code associated w python, be able to write basic linear hyperplane model

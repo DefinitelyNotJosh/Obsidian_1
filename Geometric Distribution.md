@@ -1,0 +1,4 @@
+Used to estimate how many Bernoulli (see [[Bernoulli Distribution]]) trials with a fixed probability of success $p$ will occur before the first success. The number of failures prior to first success is random variable $K$. The probability that $k$ failures occur PRIOR to the first success is given by the [[Probability mass function (PMF) (Discrete)]] $$P(K=k)=(1-p)^kp \text{ for }k=0,1,2,3...$$ The cumulative distribution function is then given by $$P(K\leq k)= \sum_{x=0}^{k}P(K=x)=1-(1-p)^{k+1} \text{ for }k=0,1,2,3 ...$$ The mean or expected value is given by $$\mu=E(K)=\frac{1-p}{p}$$ The variance is given by $$\sigma^2=V(K)=\frac{1-p}{p^2}$$
+ICA
+1. Probability 4th component is faulty: 0.0407, 4.287%. K IS 3, BECAUSE IT'S the number of failures PRIOR to first success
+2. Probability 5 or less components are faulty, 0.226, 22.621%. K is 4

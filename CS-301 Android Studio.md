@@ -1,0 +1,4 @@
+ - Empty Activity
+- Change language to Java
+- Name Package edu.up.*Insert game name*
+- Choose a reasonable API, default is normally good - Everyone has to use same API

@@ -1,0 +1,1 @@
+### A way of thinking that embraces the scientific method, finding natural reasons for phenomena
