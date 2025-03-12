@@ -46,7 +46,7 @@ Can do $$(\lambda x. x^2 +2x+1) ~5=5^2+2*5+1$$
 
 Lists in Haskell:
 
-Lists are really made out of cons : and nil []
+Lists are really made out of cons : and nil \[]
 The list is really
 
 ints :: \[Int]
@@ -75,4 +75,22 @@ map f (x:xs) = f x : map f xs
 filter :: (a -> Bool) -> [a] -> [a]
 filter _ [] = []
 filter p (x:xs) = if p x then x : filter p xs else filter p xs
+
+%% example - find if a number is prime %%
+
+
+
 ```
+Haskell example: use filter to find if a number is prime: 
+
+
+A function in Haskell has a type, which indicates the type of values it takes as input and the type of values it returns.
+
+#### 3. `foldr` - 
+```haskell
+foldr :: (a -> b -> b) -> b -> [a] -> b
+foldr _ v [] = v
+foldr f v (x:xs) = f x (foldr f v xs)
+```
+foldr combines all the elements of a list into a single value, starting from the right.
+
