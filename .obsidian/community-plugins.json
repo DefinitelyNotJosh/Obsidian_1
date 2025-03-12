@@ -4,5 +4,7 @@
   "obsidian-tasks-plugin",
   "companion",
   "obsidian-git",
-  "omnisearch"
+  "omnisearch",
+  "text-extractor",
+  "surfing"
 ]

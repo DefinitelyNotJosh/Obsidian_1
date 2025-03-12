@@ -1,0 +1,1 @@
+{"path":"Pasted image 20250117141434.png","text":"match letter { AT = { printin!(\"{}\", 0); } 'B\" => { printin!(\"{}\", 1); } 'C' = { printin! (\"{}\", 2); } - = { printin!(\"too-big\"); } }","libVersion":"0.3.2","langs":"eng"}
