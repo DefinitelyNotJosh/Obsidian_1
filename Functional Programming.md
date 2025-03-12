@@ -21,3 +21,11 @@ In some form or another, functions are basis for everything
 #### Higher order functions
 - Can pass functions as arguments
 - Can return functions from other functions
+
+Higher order function examples: - `map()` function
+- `filter()` function
+- Function composition
+- Closures
+- `reduce()` function 
+- Currying 
+- Recursion

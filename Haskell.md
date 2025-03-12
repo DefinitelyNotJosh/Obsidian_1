@@ -55,10 +55,27 @@ strings :: String
 ```
 
 reverse - reverses a list
+reverse implementation: 
+``` 
+reverse :: [a] -> [a]
+reverse [] = []
+reverse (x:xs) = reverse xs ++ [x]
+```
 
 group - groups lists together
 
+
+
 intersperse - takes an element and intersperses them in a list (buts between each element)
+
+intersperse implementation:
+``` 
+intersperse :: a -> [a] -> [a]
+intersperse _ [] = []
+intersperse _ [x] = [x]
+intersperse y (x:xs) = x : y : intersperse y xs
+```
+
 
 concat - smashes lists together
 
@@ -77,6 +94,8 @@ addCommas = reverse
 		  . group 3
 		  . reverse
 ```
+
+
 
 Haskell 'group' implementation: 
 ```

@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8e869af480e43e7a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "5a76b56b11042aba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Haskell.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Haskell"
-            }
-          },
-          {
             "id": "51007ddd6e7851dc",
             "type": "leaf",
             "state": {
@@ -93,15 +69,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Ethics.md",
+                "file": "Machine Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Software Ethics"
+              "title": "Machine Learning"
+            }
+          },
+          {
+            "id": "6571a3d4ce90f9af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Programming.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Functional Programming"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -208,7 +199,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -220,10 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vlad Savchuk.md"
+                "file": "Hypothesis Testing.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Vlad Savchuk"
+              "title": "Outline of Hypothesis Testing"
             }
           },
           {
@@ -249,17 +245,30 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "61ffe454889d64f0",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 308.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "surfing:surfing-bookmark-manager": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false,
       "companion:Toggle completion": false,
       "zk-prefixer:Create new unique note": false,
       "audio-recorder:Start/stop recording": false,
@@ -271,23 +280,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e869af480e43e7a",
+  "active": "6571a3d4ce90f9af",
   "lastOpenFiles": [
     "Programming Languages.md",
-    "Software Engineering.md",
-    "Software Ethics.md",
-    "Pasted image 20250224084023.png",
-    "Hypothesis Testing.md",
     "Haskell.md",
-    "Pasted image 20250212083723.png",
-    "Pasted image 20230906111020.png",
-    "Pasted image 20250115140521.png",
-    "Pasted image 20250211151448.png",
-    "Pasted image 20250211152239.png",
-    "Pasted image 20230830160503.png",
-    "Pasted image 20230829085746.png",
-    "Pasted image 20250115113100.png",
-    "Pasted image 20250115102646.png",
+    "Software Engineering.md",
+    "Hypothesis Testing.md",
+    "Machine Learning.md",
+    "Software Ethics.md",
+    "T-Confidence Intervals - T-Test.md",
     "Anchor Seminor 8/28",
     "Anchor Seminor 8",
     "Septuagint",
@@ -302,9 +303,8 @@
     "Prolog.md",
     "Unsupervised Learning.md",
     "202503120645.md",
-    "Machine Learning.md",
+    "Pasted image 20250311145307.png",
     "Z-Test.md",
-    "T-Confidence Intervals - T-Test.md",
     "Ethics.md",
     "Functional Programming.md",
     "Imperative Programming.md",
@@ -317,6 +317,15 @@
     "Artificial Neural Networks.md",
     "OOP Implementation.md",
     "T-Distribution - T-Test.md",
-    "T-Table.md"
+    "T-Table.md",
+    "Pasted image 20250226083851.png",
+    "Pasted image 20250226083723.png",
+    "Pasted image 20250224084023.png",
+    "Pasted image 20250220145250.png",
+    "Pasted image 20250212083746.png",
+    "Pasted image 20250212083734.png",
+    "Pasted image 20250212083723.png",
+    "Pasted image 20250211152745.png",
+    "Pasted image 20250211152239.png"
   ]
 }
