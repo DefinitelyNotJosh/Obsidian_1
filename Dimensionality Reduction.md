@@ -7,7 +7,7 @@
 - True dimensionality of data - intrinsic dimension
 - Visualize
 
-### [[Principle Component Analysis]] (PCA)
+### [[Principle Component Analysis (PCA)]] (PCA)
 - Minimization of the reconstruction error
 - Find the best coordinate system
 	- Dot product defines the least lossy lower dimension
