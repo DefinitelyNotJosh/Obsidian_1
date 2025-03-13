@@ -22,7 +22,7 @@ float average(float x, float y) {
 in C++, these are different functions
 
 #### Subtype
- Base class defines an interface.
+Base class defines an interface.
 Subclasses provide specific implementations.
 Allows for code reuse.
 Example:
@@ -32,7 +32,6 @@ public:
   virtual double area() { return 0; }
 };
 ```
-	```
 
 can even change the implementation
 
