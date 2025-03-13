@@ -103,7 +103,8 @@ Many classes can be printed this way
 string test; 
 cout << ”enter a string :” << endl; 
 cin >> test;
-```
+``` 
+
 `cin` reads until the next white space, if "Hello World" is written, test has "Hello" written to it
 
 `cin` attempts to do lexing for us
@@ -112,7 +113,7 @@ If you write a float it will try to read the next float
 If you write to a string, it will try to read the next word
 - It's smart about how it does it - skips white space before and after the word
 
-Does take control away, but is usually what we want from stdin
+Does take control away, but is usually what we want from stdin 
 
 #### Two things to check when getting user input:
 - Anything go wrong? - `cin.good()`

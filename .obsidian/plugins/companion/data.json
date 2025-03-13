@@ -3,14 +3,14 @@
   "model": "gemma3:12b",
   "enable_by_default": true,
   "keybind": "Tab",
-  "delay_ms": 300,
+  "delay_ms": 500,
   "stream": true,
   "accept": {
     "splitter_regex": "\n",
     "display_splitter_regex": "\n",
     "completion_completeness_regex": ".*$",
     "min_accept_length": 4,
-    "min_display_length": 50,
+    "min_display_length": 20,
     "retrigger_threshold": 128
   },
   "provider_settings": {

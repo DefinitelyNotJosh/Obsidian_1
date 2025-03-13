@@ -118,23 +118,9 @@
               "icon": "lucide-file",
               "title": "C++"
             }
-          },
-          {
-            "id": "d5d60d82aa78af87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 2"
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -307,10 +293,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d5d60d82aa78af87",
+  "active": "3e23ffd8c43e6f4c",
   "lastOpenFiles": [
-    "Untitled 2.md",
     "C++.md",
+    "Untitled 2.md",
     "Polymorphism.md",
     "Software Ethics.md",
     "T-Confidence Intervals - T-Test.md",
