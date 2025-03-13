@@ -104,9 +104,19 @@
               "icon": "lucide-file",
               "title": "Polymorphism"
             }
+          },
+          {
+            "id": "dbd0ac4cbd0ab042",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -279,10 +289,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56b3b68d5a02b84f",
+  "active": "dbd0ac4cbd0ab042",
   "lastOpenFiles": [
-    "Software Ethics.md",
     "Polymorphism.md",
+    "Software Ethics.md",
+    "T-Confidence Intervals - T-Test.md",
     "C++.md",
     "Haskell.md",
     "Hypothesis Testing.md",
@@ -322,7 +333,6 @@
     "Unsupervised Learning.md",
     "202503120645.md",
     "Z-Test.md",
-    "T-Confidence Intervals - T-Test.md",
     "Ethics.md",
     "Imperative Programming.md",
     "Confidence Interval for Population Proportions.md",

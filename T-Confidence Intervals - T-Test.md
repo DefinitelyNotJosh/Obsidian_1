@@ -40,5 +40,4 @@ sample std dev = 0.0837
    $$\left[8.205,8.355\right]$$
 2. How does the confidence interval change if the population variance is 0.005? ([[Z-Confidence Intervals]]) 
    $$\left[8.227,8.333\right]$$
-``` p
-```
+
