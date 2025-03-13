@@ -10,7 +10,7 @@
 #### [[Test Automation Pyramid]]
 
 
-"Do you know what a [[Nassi-Schneiderman Diagram (NSD)]] is? If not, why not? Do you know the difference between a [[Mealy State Machine]] and a [[Moore State Machine]]? You should. Could you write quicksort without looking it up? Do you know what the term “[[Transform Analysis]]” means? Could you perform a functional decomposition with Data Flow Diagrams? What does the term “[[Tramp Data]]” mean? Have you heard the term “[[Conascence]]”? What is a [[Parnas Table?]]"
+"Do you know what a [[Nassi-Schneiderman Diagram (NSD)]] is? If not, why not? Do you know the difference between a [[Mealy State Machine]] and a [[Moore State Machine]]? You should. Could you write quicksort without looking it up? Do you know what the term “[[Transform Analysis]]” means? Could you perform a functional decomposition with Data Flow Diagrams? What does the term “[[Tramp Data]]” mean? Have you heard the term “[[Connascence]]”? What is a [[Parnas Table?]]"
 - Clean Coder, p.17
 
 

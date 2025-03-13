@@ -13,18 +13,37 @@
 - Find the best coordinate system
 	- Dot product defines the least lossy lower dimension
 	- Orthonormal basis
+
 #### Advantages
 - Reduce ML algo speed
 - Reduce memory and storage requirements
 - Aging feature set
 - Visualization
-- Smaller training sets
+- Smaller training sets 
+- Easier to interpret components
 #### Disadvantages
+- Information loss
+- Sensitive to scaling
+- Assumes linear relationships
+- Difficult to interpret components
 - What if dropped dimensions contained critical info?
 - Easily overfitting of the ML model
 
 #### ICA
-Independent Component Analysis
+Independent Compone nt Analysis (ICA)
+- Maximizing statistical independence
+- Blind Source Separation
+- Contrast with PCA: PCA minimizes reconstruction error.
+- Applications: Signal processing, feature extraction
+implementation:
+```python
+import numpy as np
+from sklearn.decomposition import FastICA
+
+# Assuming X is your data matrix
+ica = FastICA(n_components=2)
+S = ica.fit_transform(X)
+```
 
 Separating a multivariate signal into additive subcomponents
 Subcomponents are statistically independent
