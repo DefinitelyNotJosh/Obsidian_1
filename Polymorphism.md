@@ -41,3 +41,12 @@ T id(T x) {
 }
 ```
 
+Polymorphic data type implementation: - Variant types
+- Union types
+- Discriminated unions
+```
+template <typename T>
+struct Variant {
+    T value;
+};
+```

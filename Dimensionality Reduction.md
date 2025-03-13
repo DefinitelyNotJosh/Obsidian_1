@@ -5,7 +5,7 @@
 - Faster learning
 - Faster generalization
 - True dimensionality of data - intrinsic dimension
-- Visualize
+- Visualize 
 
 ### [[Principle Component Analysis (PCA)]] (PCA)
 - Minimization of the reconstruction error
