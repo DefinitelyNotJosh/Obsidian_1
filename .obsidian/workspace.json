@@ -161,8 +161,7 @@
               "title": "C++"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -310,23 +309,14 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
-          },
-          {
-            "id": "dd83d7fca25ed0ec",
-            "type": "leaf",
-            "state": {
-              "type": "infio-chat-view",
-              "state": {},
-              "icon": "wand-sparkles",
-              "title": "Infio chat"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 426.5
+    "width": 426.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -340,11 +330,10 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "infio-copilot:Open infio copilot": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "dd83d7fca25ed0ec",
+  "active": "5a76b56b11042aba",
   "lastOpenFiles": [
     "Supervised Learning.md",
     "Machine Learning.md",

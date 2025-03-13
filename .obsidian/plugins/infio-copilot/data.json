@@ -1,6 +1,6 @@
 {
   "version": 0.4,
-  "defaultProvider": "Ollama",
+  "defaultProvider": "Groq",
   "infioProvider": {
     "name": "Infio",
     "apiKey": "",
@@ -57,7 +57,7 @@
   },
   "groqProvider": {
     "name": "Groq",
-    "apiKey": "",
+    "apiKey": "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",
     "baseUrl": "",
     "useCustomUrl": false
   },
@@ -70,7 +70,7 @@
   "chatModelProvider": "OpenRouter",
   "chatModelId": "",
   "applyModelProvider": "OpenRouter",
-  "applyModelId": "",
+  "applyModelId": "google/gemma-3-12b-it:free",
   "embeddingModelProvider": "Google",
   "embeddingModelId": "text-embedding-004",
   "activeModels": [],
