@@ -30,7 +30,22 @@ class Animal
 		string says(); 
 		void describe();
 }; // <- don't forget the semicolon
+
+class Car
+{
+	private:
+		 int _speed;
+		 int _gear;
+
+	public:
+		Car();
+		int getSpeed();
+		void sound();
+};
+
+};
 ```
+
 
 In C++, structs and classes are essentially the same, but classes are structs that are private by default instead of public
 

@@ -6,12 +6,12 @@
   "delay_ms": 300,
   "stream": true,
   "accept": {
-    "splitter_regex": " ",
-    "display_splitter_regex": "[.?!:;]",
-    "completion_completeness_regex": ".*(?!p{L})[^d]$",
+    "splitter_regex": "\n",
+    "display_splitter_regex": "\n",
+    "completion_completeness_regex": ".*$",
     "min_accept_length": 4,
     "min_display_length": 50,
-    "retrigger_threshold": 48
+    "retrigger_threshold": 128
   },
   "provider_settings": {
     "groq": {
@@ -23,7 +23,7 @@
     "ollama": {
       "settings": "{\"endpoint\":\"http://76.105.178.2:11434\"}",
       "models": {
-        "gemma3:12b": "{\"system_prompt\":\"You are an efficient autocomplete assistant for note-taking, optimized for the Obsidian editor (Markdown format, e.g., # for headings, 'code' for inline code). Your task is to:\\n- Offer concise, actionable completions - under 10 words\\n- Extend the document naturally:\\n  - Do not repeat any text from {{last_line}} or prior context in your response.\\n  - Provide new, relevant suggestions that build on what’s written.\\n- Formatting rules:\\n  - For code blocks, follow this exact sequence:\\n    1. Insert a blank new line.\\n    2. Add \\\"```\\\" on its own line (no whitespace before), put a space, and the write the name of the programming language.\\n    3. Write the code concisely on the next line(s).\\n    4. Insert a blank new line after the code.\\n    5. Add \\\"```\\\" on its own line (no whitespace before or after).\\n    6. Follow with a blank new line.\\nNote, the above instructions are only of relevance if you are starting a new code block. If code is already in context, don't follow the \\n  - If a line is ended with \\\"implementation:\\\" write code or latex pertaining to the request afterward, whatever is more relevant\\n\",\"user_prompt\":\"{{#context}}Context:\\n\\n{{context}}\\n\\n=================================\\n{{/context}}Do not start with \\\"...\\\". Give concise, relevant suggestions(e.g, bullet points or short phrases). REMEMBER: If there is code in the last few lines of context, YOU ARE AUTOCOMPLETING CODE. Work in context correctly, mimic intellisense in modern IDEs. Continue the document:\"}"
+        "gemma3:12b": "{\"system_prompt\":\"You are an efficient autocomplete assistant for note-taking, optimized for the Obsidian editor (Markdown format, e.g., # for headings, 'code' for inline code). Your task is to:\\n- Offer concise, actionable completions - under 10 words\\n- Extend the document naturally:\\n  - Do not repeat any text from {{last_line}} or prior context in your response.\\n- Formatting rules:\\n  - For code blocks, follow this exact sequence:\\n    1. Insert a blank new line.\\n    2. Add \\\"```\\\" on its own line (no whitespace before), put a space, and the write the name of the programming language.\\n    3. Write the code concisely on the next line(s).\\n    4. Insert a blank new line after the code.\\n    5. Add \\\"```\\\" on its own line (no whitespace before or after).\\n    6. Follow with a blank new line.\\nNote, the above instructions are only of relevance if you are starting a new code block. If code is already in context, don't follow the instructions, write as normal\\n  - If a line is ended with \\\"implementation:\\\" write code or latex pertaining to the request afterward, whatever is more relevant\\n\",\"user_prompt\":\"{{#context}}Context:\\n\\n{{context}}\\n\\n=================================\\n{{/context}}Do not start with \\\"...\\\". Give concise, relevant suggestions. REMEMBER: If there is code in the last few lines of context, YOU ARE AUTOCOMPLETING CODE. Work in context correctly, mimic intellisense in modern IDEs. Continue the document:\"}"
       }
     }
   },
