@@ -13,12 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering.md",
+                "file": "Machine Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Software Engineering"
+              "title": "Machine Learning"
+            }
+          },
+          {
+            "id": "f8fa5656473dbe41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unsupervised Learning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Unsupervised Learning"
+            }
+          },
+          {
+            "id": "8839be598d6097a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS-429 HW5.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CS-429 HW5"
             }
           },
           {
@@ -47,6 +75,20 @@
               },
               "icon": "lucide-file",
               "title": "Machine Learning"
+            }
+          },
+          {
+            "id": "a1759f3f2510ff54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Supervised Learning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Supervised Learning"
             }
           },
           {
@@ -119,7 +161,8 @@
               "title": "C++"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -176,7 +219,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "cc9b55be5114c784",
@@ -292,10 +336,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5a76b56b11042aba",
+  "active": "a1759f3f2510ff54",
   "lastOpenFiles": [
-    "Connascence.md",
+    "Supervised Learning.md",
+    "Machine Learning.md",
+    "CS-429 HW5.md",
+    "Unsupervised Learning.md",
     "Software Engineering.md",
+    "Connascence.md",
     "Haskell.md",
     "Dimensionality Reduction.md",
     "C++.md",
@@ -312,7 +360,6 @@
     "Lists in Haskell.md",
     "Paradigms.md",
     "Transform Analysis.md",
-    "Machine Learning.md",
     "Principle Component Analysis (PCA).md",
     "Functional Programming-DESKTOP-JGI2LOS.md",
     "Functional Programming.md",
@@ -335,10 +382,7 @@
     "Appeal to Force",
     "Data (statistics).md",
     "Prolog.md",
-    "Unsupervised Learning.md",
     "202503120645.md",
-    "Z-Test.md",
-    "Ethics.md",
-    "Imperative Programming.md"
+    "Z-Test.md"
   ]
 }

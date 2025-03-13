@@ -11,6 +11,11 @@
 ### [[Kernel Methods]]
 ### [[Dimensionality Reduction]]
 
+### [[Unsupervised Learning]] (Clustering document)
+
+### [[Supervised Learning]] (Clustering document)
+
+
 
 
 #### Fine line between generalization and specification
