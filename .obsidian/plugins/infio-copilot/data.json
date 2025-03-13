@@ -1,6 +1,6 @@
 {
   "version": 0.4,
-  "defaultProvider": "OpenRouter",
+  "defaultProvider": "Ollama",
   "infioProvider": {
     "name": "Infio",
     "apiKey": "",
@@ -52,8 +52,8 @@
   "ollamaProvider": {
     "name": "Ollama",
     "apiKey": "",
-    "baseUrl": "",
-    "useCustomUrl": false
+    "baseUrl": "localhost::11434",
+    "useCustomUrl": true
   },
   "groqProvider": {
     "name": "Groq",
@@ -72,7 +72,7 @@
   "applyModelProvider": "OpenRouter",
   "applyModelId": "",
   "embeddingModelProvider": "Google",
-  "embeddingModelId": "",
+  "embeddingModelId": "text-embedding-004",
   "activeModels": [],
   "infioApiKey": "",
   "openAIApiKey": "",

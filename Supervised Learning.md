@@ -13,4 +13,4 @@ Derivative of Error function:
 
 ### Expectation Maximization Algorithm
 
-Still Expensive to calc
+Still Expensive to calculate 
