@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -279,8 +279,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c86fff346db96b6",
+  "active": "82ff2622528cc4ff",
   "lastOpenFiles": [
+    "Polymorphism.md",
     "C++.md",
     "Haskell.md",
     "Hypothesis Testing.md",
@@ -325,7 +326,6 @@
     "Ethics.md",
     "Imperative Programming.md",
     "Confidence Interval for Population Proportions.md",
-    "Z-Table.md",
-    "Confidence Intervals.md"
+    "Z-Table.md"
   ]
 }

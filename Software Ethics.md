@@ -18,7 +18,7 @@ Don't carry any responsibility in this - expecting us to understand millions of 
 Could be more vocal about running unit tests, but respect toward company leadership should be considered
 - Ethics
 Yes we made a mistake, but hindsight is 20/20, obviously if we knew this was the effect we would've been more careful and not have introduced the bug, but you can't put this on us. Imagine this: You leave your car accidentally unlocked while leaving to work. Later in the day, a carjacker takes your car and ends up hitting and killing a pedestrian. Are you to blame for the death because you kept your car unlocked? No, of course not. Yes, you unknowingly contributed to the decision, but you are not in any way shape or form legally responsible
-- Impacts
+- root cause is 
 
 
 
