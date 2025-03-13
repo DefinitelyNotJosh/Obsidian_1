@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -279,8 +279,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "82ff2622528cc4ff",
+  "active": "56b3b68d5a02b84f",
   "lastOpenFiles": [
+    "Software Ethics.md",
     "Polymorphism.md",
     "C++.md",
     "Haskell.md",
@@ -300,7 +301,6 @@
     "Functional Programming.md",
     "Programming Languages.md",
     "Software Engineering.md",
-    "Software Ethics.md",
     "Pasted image 20250224084023.png",
     "Pasted image 20250212083723.png",
     "Pasted image 20250115140521.png",
