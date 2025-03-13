@@ -21,6 +21,18 @@ float average(float x, float y) {
 
 in C++, these are different functions
 
+#### Subtype
+ Base class defines an interface.
+Subclasses provide specific implementations.
+Allows for code reuse.
+Example:
+```
+class Shape {
+public:
+  virtual double area() { return 0; }
+};
+```
+	```
 
 can even change the implementation
 
@@ -41,12 +53,5 @@ T id(T x) {
 }
 ```
 
-Polymorphic data type implementation: - Variant types
-- Union types
-- Discriminated unions
-```
-template <typename T>
-struct Variant {
-    T value;
-};
-```
+Polymorphic data type implementation: 
+
