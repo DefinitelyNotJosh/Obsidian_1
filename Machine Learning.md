@@ -19,7 +19,7 @@
 
 
 #### Fine line between generalization and specification
-if model is overtrained, it can lose the ability to generalize - eg, can't recognize a human face when overtrained on a specific group of people
+if model is overtrained, it can lose the ability to generalize - eg, can't recognize a human face when overtrained on a specific group of people 
 
 - Stochastic Gradient Descent
 ### Methods of Data collection

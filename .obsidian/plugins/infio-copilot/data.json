@@ -68,7 +68,7 @@
     "useCustomUrl": true
   },
   "chatModelProvider": "OpenRouter",
-  "chatModelId": "",
+  "chatModelId": "google/gemini-2.0-pro-exp-02-05:free",
   "applyModelProvider": "OpenRouter",
   "applyModelId": "google/gemma-3-12b-it:free",
   "embeddingModelProvider": "Google",
