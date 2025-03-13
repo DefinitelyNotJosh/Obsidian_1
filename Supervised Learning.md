@@ -7,4 +7,10 @@ cluster's diversity index (information entropy)
 Maximize M
 
 
-#
+### 1D Gaussian mixture model
+Derivative of Error function: 
+### $$\sigma^2_{ML}=$$
+
+### Expectation Maximization Algorithm
+
+Still Expensive to calc

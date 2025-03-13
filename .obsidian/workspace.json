@@ -219,8 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "cc9b55be5114c784",
@@ -325,7 +324,6 @@
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
       "surfing:surfing-bookmark-manager": false,
-      "companion:Toggle completion": false,
       "zk-prefixer:Create new unique note": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
