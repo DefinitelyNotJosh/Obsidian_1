@@ -1,7 +1,7 @@
 #### The formal process by which a hypothesis is retained or rejected. Compares two competing hypotheses about a population, the null hypothesis and the alternative hypothesis
 - Central goal - Determine whether $H_0$ can be rejected in favor of $H_a$, or see if $H_0$ fails to be rejected based on evidence in sample data
 
-
+#### [[Hypothesis Testing Examples]]
 
 ### [[Z-Test]] for population means if population std dev is known
 z-test - hypothesis test in which the z-statistic follows a normal distribution
