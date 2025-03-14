@@ -27,8 +27,24 @@ Alternative Hypothesis: Average blood pressure decreases (left-tailed)
 #### Z-Test example
 Benzene is a toxic chemical. A manufacturer claims that its wastewater meets the federal regulation w a mean concentration of 7980 ppm. 10 Random samples collected and are found to have an average of 7906 ppm. Assume the benzene concentration in plant wastewater have been normally distributed with a standard deviation of 80 ppm. Use a significance level of 0.01
 
+1. Parameter of interest - mean concentration of benzene
+2. Null hypothesis: Wastewater benzene is 7980 ppm
+3. Alternative hypothesis: benzene < 7980 ppm
+4. test statistic: z test (sample is less than 30, but normally distributed)
+5. Reject $H_0$ - will be rejected if p-value is less than 0.01
+6. Computation
+#### $z = \frac{\bar{x}-\mu_0}{\frac{\sigma}{\sqrt{n}}}$
+ where $\bar{x}$ is the sample mean, $\mu_0$ is the hypothesized population mean, $\sigma$ is the population standard deviation, and $n$ is the sample size 
+ $z = \frac{7906 - 7980}{\frac{80}{\sqrt{10}}}$
+$z = \frac{-74}{25.298}$
+$z = -2.93$
+Get p-value from [[Z-Table]]
+p = 0.0017 
+p is less than 0.01, Reject the null hypothesisReject null hypothesis.
 
-Null Hypothesis: Wastewater benzene is 7980 ppm
+
+
+Null Hypothesis: 
 Alternative Hypothesis: Wastewater benzene is less than 7980 ppm (left-tailed)
 std dev - 80 ppm
 n = 10
