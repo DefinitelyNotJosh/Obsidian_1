@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hypothesis Testing Examples.md",
+                "file": "7-Step Method.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hypothesis Testing Examples"
+              "title": "7-Step Method"
             }
           },
           {
@@ -351,11 +351,11 @@
   },
   "active": "448d35b0b879083e",
   "lastOpenFiles": [
+    "Hypothesis Testing Examples.md",
     "T-Test.md",
     "7-Step Method.md",
     "Z-Test.md",
     "Z-Table.md",
-    "Hypothesis Testing Examples.md",
     "Hypothesis Testing.md",
     "Data (statistics).md",
     "C++.md",

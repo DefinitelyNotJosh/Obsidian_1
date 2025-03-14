@@ -23,7 +23,6 @@ Alternative Hypothesis: Average blood pressure decreases (left-tailed)
  Calculate the p-value using t-table
 
 
-
 #### Z-Test example
 Benzene is a toxic chemical. A manufacturer claims that its wastewater meets the federal regulation w a mean concentration of 7980 ppm. 10 Random samples collected and are found to have an average of 7906 ppm. Assume the benzene concentration in plant wastewater have been normally distributed with a standard deviation of 80 ppm. Use a significance level of 0.01
 
