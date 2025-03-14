@@ -86,11 +86,34 @@ Haskell example: use filter to find if a number is prime:
 
 A function in Haskell has a type, which indicates the type of values it takes as input and the type of values it returns.
 
-#### 3. `foldr` - 
+#### 3. `foldr` - Acts like a summation notation. Combines things in a list together
+Easily most versatile function
 ```haskell
 foldr :: (a -> b -> b) -> b -> [a] -> b
 foldr _ v [] = v
 foldr f v (x:xs) = f x (foldr f v xs)
 ```
 foldr combines all the elements of a list into a single value, starting from the right.
+
+foldr (+) 0 \[1,2,3,4,5] = 15
+Foldr is powerful, versatile. Often used with lists
+
+Foldr is recursion
+
+z is our base case
+f is our recursive case
+
+In rust:
+```rust
+fn legnth(list) -> usize {
+	match list {
+		Nil => 0
+		Cons => 1 + lenfth(tail)
+	}
+}
+```
+In haskell:
+```haskell
+length list = foldr (\head tailLen -> 1 + tailLen) 0 list
+```
 
