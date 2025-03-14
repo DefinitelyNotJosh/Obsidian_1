@@ -41,12 +41,11 @@ alpha = 0.01
 6. Computation
 #### $z = \frac{\bar{x}-\mu_0}{\frac{\sigma}{\sqrt{n}}}$
  where $\bar{x}$ is the sample mean, $\mu_0$ is the hypothesized population mean, $\sigma$ is the population standard deviation, and $n$ is the sample size 
- $z = \frac{7906 - 7980}{\frac{80}{\sqrt{10}}}$
+##### $z = \frac{7906 - 7980}{\frac{80}{\sqrt{10}}}$
 $z = \frac{-74}{25.298}$
 $z = -2.93$
 Get p-value from [[Z-Table]]
-p = 0.0017 
+p ~ 0.0017
 
-7. Conclusion: p is less than 0.01, Reject the null hypothesis. The benzene concentration does indeed meet the federal regulation
-
+7. Conclusion: p is less than 0.01, reject the null hypothesis. The benzene concentration does indeed meet the federal regulation
 

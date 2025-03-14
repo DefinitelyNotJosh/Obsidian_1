@@ -79,7 +79,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "860cd487e1ce4290",
@@ -430,10 +430,10 @@
   },
   "active": "448d35b0b879083e",
   "lastOpenFiles": [
-    "Z-Test.md",
-    "Hypothesis Testing Examples.md",
-    "7-Step Method.md",
     "Z-Table.md",
+    "Hypothesis Testing Examples.md",
+    "Z-Test.md",
+    "7-Step Method.md",
     "T-Test.md",
     "Hypothesis Testing.md",
     "Data (statistics).md",
