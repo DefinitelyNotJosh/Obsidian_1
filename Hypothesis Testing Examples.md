@@ -1,3 +1,8 @@
+[[7-Step Method]]
+[[Z-Test]]
+[[T-Test]]
+
+
 Question: Want to test a manufacturer's claim that their phone runs at least 28 hours
 
 Null Hypothesis: The phone runs at least 28 hours a day

@@ -3,6 +3,8 @@
 
 #### [[Hypothesis Testing Examples]]
 
+#### [[7-Step Method]]
+
 ### [[Z-Test]] for population means if population std dev is known
 z-test - hypothesis test in which the z-statistic follows a normal distribution
 ### [[T-Test]] for population means if population std dev is unknown
@@ -22,7 +24,7 @@ Hypothesis for two populations:
 denoted as $H_0$, is a statement assumed to be true unless sufficient data indicates otherwise
 - Typically a statement of equality between the true value of the population parameter and the hypothesized value or a statement of no difference between the params of two populations
 - ex - The statement "the average salary of the residents of San Francisco is not different that the average salary of the residents of Austin" or" the average salary of the residents of San Francisco is the same as the average salary of the residents of Austin" is a null hypothesis
-#### Make the null hypothesis against what you're trying to observe - if you think you'll see variation in data, make the null hypothesis that there won't be variation
+#### The Null hypothesis is '=' - assumes to change
 
 
 #### alternative hypothesis
@@ -91,6 +93,5 @@ Power: probability $1-\beta$ of avoiding type II errors
 5. Reject $H_0$ if: Define the criteria that will lead to rejection of $H_0$
 6. Computation - Compute any necessary sample quantities, substitute those into the equation for the test statistic, and compute that value
 7. Conclusion - Decide whether or not $H_0$ should be rejected and report that in the problem context. This could involve computing a p-value or comparing the test statistic to a set of critical values
-
 
 

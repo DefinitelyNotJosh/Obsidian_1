@@ -36,7 +36,7 @@ For two-tailed alternative hypothesis:
 
 #### Python code
 The code below loads the exam scores data and uses the `scipy.stats.ttest_1samp()` function to find the t-test statistic and two-tailed p-value for the following hypotheses about the Exam 1 scores: $H_0:μ=82$ and $H_a:μ≠82$.
-```
+```python
 import pandas as pd
 import scipy.stats as st
 scores = pd.read_csv('ExamScores.csv')
