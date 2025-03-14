@@ -98,8 +98,7 @@ foldr combines all the elements of a list into a single value, starting from the
 foldr (+) 0 \[1,2,3,4,5] = 15
 Foldr is powerful, versatile. Often used with lists
 
-Foldr is recursion
-
+#### Foldr is recursion
 z is our base case
 f is our recursive case
 
@@ -112,8 +111,38 @@ fn legnth(list) -> usize {
 	}
 }
 ```
-In haskell:
+In haskell: 
 ```haskell
 length list = foldr (\head tailLen -> 1 + tailLen) 0 list
 ```
+
+We can do more complicated calls
+
+```haskell
+countLetters :: [Char] -> Omt
+countLetters str = foldr add 0 (words str)
+	where add s count = length s + count
+```
+Here is using a *where* clause
+- Like a let expression, but it goes after the function
+
+Add letters in a word list:
+```haskell
+add :: [Char] -> Int -> Int
+add s count = length s +count
+countLetters :: [Char] -> Int
+countLetters str = foldr add 0 (words str)
+
+countLetters "This is a string"
+```
+
+### Zip, Drop, Take
+```haskell
+zip :: [a] -> [b] -> [(a,b)]
+drop :: Int -> [a] -> [a]
+take :: Int -> [a] -> [a]
+```
+zip pairs lists up by element
+drop removes the first n elements
+take only keeps the first n elements
 

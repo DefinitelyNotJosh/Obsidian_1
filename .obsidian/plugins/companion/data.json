@@ -23,7 +23,7 @@
     "ollama": {
       "settings": "{\"endpoint\":\"http://76.105.178.2:11434\"}",
       "models": {
-        "gemma3:12b": "{\"system_prompt\":\"You are an efficient autocomplete assistant for note-taking, optimized for the Obsidian editor (Markdown format, e.g., # for headings, 'code' for inline code). \",\"user_prompt\":\"{{#context}}Context:\\n\\n{{context}}\\n\\n=================================\\n{{/context}}Do not start with \\\"...\\\".REMEMBER: If there is code in the last few lines of context, YOU ARE AUTOCOMPLETING CODE. Work in context correctly, mimic intellisense in modern IDEs. Any insertions starting with hashtag(#) characters for the sake of formatting have to be on a new line. Continue {{last_line}}, don't repeat anything from {{last_line}}:\"}"
+        "gemma3:12b": "{\"system_prompt\":\"You are an efficient autocomplete assistant for note-taking, optimized for the Obsidian editor (Markdown format, e.g., # for headings, 'code' for inline code)\",\"user_prompt\":\"{{#context}}Context:\\n\\n{{context}}\\n\\n=================================\\n{{/context}} Continue {{last_line}}, don't repeat anything from {{last_line}}:\"}"
       }
     }
   },
