@@ -7,13 +7,13 @@
 ## Variables
 
 
-| Population |            |     Sample     |
-| :--------: | :--------: | :------------: |
-|   $\mu$    |    mean    | $\overline{x}$ |
-| $\sigma^2$ |  variance  |     $s^2$      |
-|  $\sigma$  |  std dev   |      $s$       |
-|    $N$     |    size    |      $n$       |
-|    $p$     | proportion |   $\hat{p}$    |
+| Population (parameters) |            | Sample (statistics) |
+| :---------------------: | :--------: | :-----------------: |
+|          $\mu$          |    mean    |   $\overline{x}$    |
+|       $\sigma^2$        |  variance  |        $s^2$        |
+|        $\sigma$         |  std dev   |         $s$         |
+|           $N$           |    size    |         $n$         |
+|           $p$           | proportion |      $\hat{p}$      |
 
 
 

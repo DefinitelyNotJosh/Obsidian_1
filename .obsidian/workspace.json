@@ -6,7 +6,7 @@
       {
         "id": "20f5825cbfad2ecf",
         "type": "tabs",
-        "dimension": 38.314883148831484,
+        "dimension": 38.31488314883149,
         "children": [
           {
             "id": "715ea1b646f68d6b",
@@ -21,13 +21,24 @@
               "icon": "lucide-file",
               "title": "T-Test"
             }
+          },
+          {
+            "id": "cacb19ecdfadd9ef",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "860cd487e1ce4290",
         "type": "tabs",
-        "dimension": 61.68511685116851,
+        "dimension": 61.685116851168516,
         "children": [
           {
             "id": "5a76b56b11042aba",
@@ -371,14 +382,14 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "448d35b0b879083e",
+  "active": "cacb19ecdfadd9ef",
   "lastOpenFiles": [
-    "Hypothesis Testing.md",
-    "7-Step Method.md",
-    "T-Test.md",
     "Hypothesis Testing Examples.md",
-    "C++.md",
+    "Hypothesis Testing.md",
     "Data (statistics).md",
+    "T-Test.md",
+    "7-Step Method.md",
+    "C++.md",
     "CS-429 HW5.md",
     "Machine Learning.md",
     "Supervised Learning.md",
