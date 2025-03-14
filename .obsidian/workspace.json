@@ -320,7 +320,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "infio-copilot:Open infio copilot": false,
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
       "surfing:surfing-bookmark-manager": false,

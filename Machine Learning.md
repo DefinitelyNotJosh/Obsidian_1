@@ -22,6 +22,10 @@
 if model is overtrained, it can lose the ability to generalize - eg, can't recognize a human face when overtrained on a specific group of people 
 
 - Stochastic Gradient Descent
+
+#### Bias-Variance Tradeoff
+
+
 ### Methods of Data collection
 Supervised: labeled
 Unsupervised: unlabeled - [[Unsupervised Learning]]
