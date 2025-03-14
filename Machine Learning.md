@@ -38,7 +38,12 @@ Semi-supervised
 ### ML Tasks
 - Detection of diseases/cancers from MRIs
 - Detecting Spam email
-- "Game" AI - stockfish?
+- "Game" AI - stockfish? 
+- Image recognition and classification
+- Natural language processing
+- Recommendation systems
+- Anomaly detection
+- Time series forecasting
 ### Steps:
 1.  Pre-Processing
 2. Feature extraction

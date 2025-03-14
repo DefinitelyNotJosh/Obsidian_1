@@ -161,7 +161,8 @@
               "title": "C++"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -330,13 +331,14 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "companion:Toggle completion": false
     }
   },
-  "active": "5a76b56b11042aba",
+  "active": "8839be598d6097a4",
   "lastOpenFiles": [
-    "Supervised Learning.md",
     "Machine Learning.md",
+    "Supervised Learning.md",
     "CS-429 HW5.md",
     "Unsupervised Learning.md",
     "Software Engineering.md",
