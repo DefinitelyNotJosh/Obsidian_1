@@ -27,6 +27,12 @@ Alternative hypothesis: Two groups with unequal means exist
     - If the p-value is less than the significance level, sufficient evidence exists to reject the null hypothesis $H_0$ in favor of the alternative hypothesis $H_a$.
     - If the p-value is greater than or equal to the significance level, insufficient evidence exists to reject the null hypothesis $H_0$.
 
+
+### Post-hoc tests
+If null hypothesis is rejected, further analysis is required because the F-test does not determine which groups have different means. Post-hoc analysis determines which groups have different means, which group has highest mean, lowest mean, etc.
+#### [[Tukey Honestly Significant Difference (HSD)]]
+Gives the 95% confidence intervals for the mean difference between pairwise groups and determines which mean difference is statistically significant. If 0 falls in the confidence interval, then difference between means is not statistically significant
+
 #### Python code:
 `f_oneway()` function performs a one-way ANOVA. The function takes a number of lists of data as parameters, and returns the F-statistic and the p-value. The scipy.stats and statsmodels.formula.api libraries must be imported to use `f_oneway()`.
 
@@ -66,3 +72,5 @@ import seaborn as sns
 sns.boxplot(x="Exam", y="Scores", data=df)
 
 ```
+
+
