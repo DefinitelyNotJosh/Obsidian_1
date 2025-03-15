@@ -204,7 +204,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -377,8 +377,9 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "717ebfe8a0507d1f",
+  "active": "4280ace5212db771",
   "lastOpenFiles": [
+    "Z-Table.md",
     "Hypothesis Testing for Population Proportion.md",
     "Z-Test.md",
     "Hypothesis Testing.md",
@@ -387,7 +388,6 @@
     "7-Step Method.md",
     "Hypothesis Testing Examples.md",
     "T-Test.md",
-    "Z-Table.md",
     "Data (statistics).md",
     "C++.md",
     "CS-429 HW5.md",
