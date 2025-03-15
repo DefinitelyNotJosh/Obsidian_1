@@ -5,7 +5,6 @@
 ### [[Poisson Distribution]]
 ### [[Exponential Distribution]]
 
-
 ### [[Continuous Distribution]]
 
 
@@ -28,6 +27,8 @@ e) number of accidental bites until you draw blood - Geometric
 ### [[Sample Distribution]]
 ### [[Standard Error]]
 ### [[T-Distribution - T-Test]]
+
+### [[F-Distribution]]
 
 
 ### Unimodal/Normal distribution
