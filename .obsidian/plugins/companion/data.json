@@ -23,7 +23,7 @@
     "ollama": {
       "settings": "{\"endpoint\":\"http://76.105.178.2:11434\"}",
       "models": {
-        "gemma3:12b": "{\"system_prompt\":\"You are an efficient autocomplete assistant for note-taking, optimized for the Obsidian editor (Markdown format, e.g., # for headings, 'code' for inline code)\",\"user_prompt\":\"{{#context}}Context:\\n\\n{{context}}\\n\\n=================================\\n{{/context}} Continue {{last_line}}, don't repeat anything from {{last_line}}:\"}"
+        "gemma3:12b": "{\"system_prompt\":\"You are an auto completer. Do not greet, do not say goodbye, begin immediately\",\"user_prompt\":\"{{#context}}Context:\\n\\n{{context}}\\n\\n=================================\\n{{/context}} Continue {{last_line}}, don't repeat anything from {{last_line}}:\"}"
       }
     }
   },

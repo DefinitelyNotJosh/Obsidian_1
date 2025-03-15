@@ -5,6 +5,8 @@
 
 #### [[7-Step Method]]
 
+#### [[Hypothesis Testing for Population Proportion]]
+
 ### [[Z-Test]] for population means if population std dev is known
 z-test - hypothesis test in which the z-statistic follows a normal distribution
 ### [[T-Test]] for population means if population std dev is unknown
