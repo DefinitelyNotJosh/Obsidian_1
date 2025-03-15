@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hypothesis Testing for Population Proportion.md",
+                "file": "Z-Table.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hypothesis Testing for Population Proportion"
+              "title": "Z-Table"
             }
           },
           {
@@ -379,9 +379,9 @@
   },
   "active": "717ebfe8a0507d1f",
   "lastOpenFiles": [
+    "Hypothesis Testing for Population Proportion.md",
     "Z-Test.md",
     "Hypothesis Testing.md",
-    "Hypothesis Testing for Population Proportion.md",
     "Lists in Haskell.md",
     "Haskell.md",
     "7-Step Method.md",
