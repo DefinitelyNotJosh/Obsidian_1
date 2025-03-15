@@ -7,6 +7,9 @@
 
 #### [[Hypothesis Testing for Population Proportion]]
 
+#### [[ANOVA]] and [[One-Way ANOVA]]
+
+
 ### [[Z-Test]] for population means if population std dev is known
 z-test - hypothesis test in which the z-statistic follows a normal distribution
 ### [[T-Test]] for population means if population std dev is unknown
@@ -51,7 +54,7 @@ value calculated from sample data during hypothesis testing that measures degree
 | ------------------------------------------------ | ---------------------------------------- | ----------------------------------------------- |
 | One or two population μ, p, known σ              | [[Z-Test]] - [[Z-Score]]                 | Z-statistic [[Z-Confidence Intervals]]          |
 | One or two population μ, unknown σ               | [[T-Test]] - [[T-Distribution - T-Test]] | t-statistic [[T-Confidence Intervals - T-Test]] |
-| Comparing a parameter among three or more groups | ANOVA                                    | F-statistic                                     |
+| Comparing a parameter among three or more groups | [[ANOVA]]                                | F-statistic [[F-Distribution]]                  |
 | Comparing categorical variables                  | Chi-square test                          | χ2-statistic                                    |
 
 #### statistically significant result
