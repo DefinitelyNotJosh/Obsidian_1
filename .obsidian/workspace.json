@@ -36,8 +36,7 @@
               "title": "T-Test"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "860cd487e1ce4290",
@@ -402,9 +401,9 @@
   },
   "active": "96d4360f289a9f37",
   "lastOpenFiles": [
-    "T-Test.md",
-    "Hypothesis Testing Examples.md",
     "7-Step Method.md",
+    "Hypothesis Testing Examples.md",
+    "T-Test.md",
     "Z-Test.md",
     "Hypothesis Testing.md",
     "T-Test Example.md",

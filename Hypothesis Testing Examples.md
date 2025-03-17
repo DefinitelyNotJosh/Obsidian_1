@@ -51,7 +51,7 @@ p ~ 0.0017
 
 ### T-Test example
 A machine produces metal rods used in automobiles, a random sample of 12 rods is selected and diameters measured in mm:
-8.23, 8.29, 8.19, 8.14, 8.31, 8.19, 8.29, 8.32, 8.42, 8.24, 8.24, 8.3, 8.4
+8.23, 8.29, 8.19, 8.14, 8.31, 8.19, 8.29, 8.32, 8.42, 8.24, 8.3, 8.4
 
 1. Describe why t-test is required for this hypothesis
 No population standard deviation given
@@ -65,3 +65,7 @@ Sample size is under 30 and the population isn't said to be normally distributed
 3. Alternative hypoth. - The mean rod diameter $\neq$ 8.2
 4. Test statistic - t-score
 #### $t = \displaystyle\frac{\bar{x}-\mu_0}{\frac{s}{\sqrt{n}}}$ and $df = n - 1$
+5. $H_0$ will be rejected if 2\*p-value is less than 0.05
+6. Computation
+#### $t = \displaystyle\frac{8.28-8.2}{\frac{0.08}{\sqrt{12}}}$ and $df = 12 - 1=11$ $$t=0.0088$$
+7. Conclusion - 
