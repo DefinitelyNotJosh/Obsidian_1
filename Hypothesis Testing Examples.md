@@ -59,6 +59,14 @@ Sample size is under 30 and the population isn't said to be normally distributed
 
 2. Is there strong evidence to indicate that the mean rod diameter is not 8.2 mm with $\alpha$ = 0.05
 
+
+
+
+
+
+
+
+
 //
 1. Parameter of interest - mean rod diameter
 2. Null hypoth. - The mean rod diameter is 8.20mm
@@ -67,5 +75,5 @@ Sample size is under 30 and the population isn't said to be normally distributed
 #### $t = \displaystyle\frac{\bar{x}-\mu_0}{\frac{s}{\sqrt{n}}}$ and $df = n - 1$
 5. $H_0$ will be rejected if 2\*p-value is less than 0.05
 6. Computation
-#### $t = \displaystyle\frac{8.28-8.2}{\frac{0.08}{\sqrt{12}}}$ and $df = 12 - 1=11$ $$t=0.0088$$
-7. Conclusion - 
+#### $t = \displaystyle\frac{8.28-8.2}{\frac{0.08}{\sqrt{12}}}$ and $df = 12 - 1=11$ $$t=3.177$$ p-value = $0.088$, 2* 0.088 = 0.176
+7. Conclusion - 0.176 > 0.088, Insufficient evidence to reject null hypothesis
