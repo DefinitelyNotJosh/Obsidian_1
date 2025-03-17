@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "T-Test.md",
+                "file": "Haskell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "T-Test"
+              "title": "Haskell"
             }
           }
         ],
@@ -241,7 +241,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -415,22 +415,22 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "96d4360f289a9f37",
+  "active": "cee0695ed6b4c4c3",
   "lastOpenFiles": [
+    "Lists in Haskell.md",
+    "Haskell.md",
+    "T-Test.md",
     "Hypothesis Testing Examples.md",
     "Hypothesis Testing for Population Proportion.md",
-    "T-Test.md",
     "7-Step Method.md",
     "Z-Test.md",
     "Hypothesis Testing.md",
     "T-Test Example.md",
-    "Lists in Haskell.md",
     "Tukey Honestly Significant Difference (HSD).md",
     "Pasted image 20250315113419.png",
     "One-Way ANOVA.md",
     "F-Distribution.md",
     "ANOVA.md",
-    "Haskell.md",
     "Z-Table.md",
     "Data (statistics).md",
     "C++.md",
