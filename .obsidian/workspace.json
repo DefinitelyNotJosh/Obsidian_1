@@ -120,12 +120,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hypothesis Testing Examples.md",
+                "file": "Lists in Haskell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hypothesis Testing Examples"
+              "title": "Lists in Haskell"
             }
           },
           {
@@ -416,8 +416,8 @@
   },
   "active": "96d4360f289a9f37",
   "lastOpenFiles": [
-    "Hypothesis Testing for Population Proportion.md",
     "Hypothesis Testing Examples.md",
+    "Hypothesis Testing for Population Proportion.md",
     "T-Test.md",
     "7-Step Method.md",
     "Z-Test.md",
