@@ -1,4 +1,4 @@
-[[7-Step Method]]
+#### [[7-Step Method]]
 
 Question: Want to test a manufacturer's claim that their phone runs at least 28 hours
 
@@ -71,3 +71,4 @@ Sample size is under 30 and the population isn't said to be normally distributed
 
 
 ### Proportion example
+[[Hypothesis Testing for Population Proportion]]
