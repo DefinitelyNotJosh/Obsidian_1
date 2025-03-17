@@ -43,4 +43,4 @@ scores = pd.read_csv('ExamScores.csv')
 print(st.ttest_1samp(scores['Exam1'], 82))
 ```
 
-
+#### [[Hypothesis Testing Examples]]

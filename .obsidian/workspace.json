@@ -4,8 +4,45 @@
     "type": "split",
     "children": [
       {
+        "id": "b14e75d4c10b8643",
+        "type": "tabs",
+        "dimension": 29.520295202952028,
+        "children": [
+          {
+            "id": "d74bac20d6bc220d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7-Step Method.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "7-Step Method"
+            }
+          },
+          {
+            "id": "38f5ca03db8c6fae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "T-Test.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "T-Test"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
         "id": "860cd487e1ce4290",
         "type": "tabs",
+        "dimension": 70.47970479704797,
         "children": [
           {
             "id": "5a76b56b11042aba",
@@ -50,31 +87,45 @@
             }
           },
           {
-            "id": "51007ddd6e7851dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hypothesis Testing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hypothesis Testing"
-            }
-          },
-          {
             "id": "448d35b0b879083e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lists in Haskell.md",
+                "file": "T-Test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lists in Haskell"
+              "title": "T-Test"
+            }
+          },
+          {
+            "id": "51007ddd6e7851dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Z-Test.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Z-Test"
+            }
+          },
+          {
+            "id": "96d4360f289a9f37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hypothesis Testing Examples.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hypothesis Testing Examples"
             }
           },
           {
@@ -176,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -349,8 +400,15 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "448d35b0b879083e",
+  "active": "96d4360f289a9f37",
   "lastOpenFiles": [
+    "T-Test.md",
+    "Hypothesis Testing Examples.md",
+    "7-Step Method.md",
+    "Z-Test.md",
+    "Hypothesis Testing.md",
+    "T-Test Example.md",
+    "Lists in Haskell.md",
     "Tukey Honestly Significant Difference (HSD).md",
     "Pasted image 20250315113419.png",
     "One-Way ANOVA.md",
@@ -358,12 +416,7 @@
     "F-Distribution.md",
     "ANOVA.md",
     "Haskell.md",
-    "7-Step Method.md",
-    "Hypothesis Testing Examples.md",
-    "T-Test.md",
-    "Z-Test.md",
     "Z-Table.md",
-    "Hypothesis Testing.md",
     "Data (statistics).md",
     "C++.md",
     "CS-429 HW5.md",
@@ -376,12 +429,10 @@
     "Untitled 2.md",
     "Polymorphism.md",
     "Software Ethics.md",
-    "T-Confidence Intervals - T-Test.md",
     "Pasted image 20250226083723.png",
     "Pasted image 20230906111020.png",
     "Pasted image 20230830160503.png",
     "Pasted image 20230829085746.png",
-    "Functions in Haskell.md",
     "Pasted image 20250224084023.png",
     "Pasted image 20250212083723.png",
     "Pasted image 20250115140521.png",

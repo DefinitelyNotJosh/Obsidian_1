@@ -45,3 +45,4 @@ print(ztest(x1 = scores['Exam1'],  value = 86))
 ```
 
 
+### [[Hypothesis Testing Examples]]
