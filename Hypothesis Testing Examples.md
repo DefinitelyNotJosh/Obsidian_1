@@ -1,7 +1,4 @@
 [[7-Step Method]]
-[[Z-Test]]
-[[T-Test]]
-
 
 Question: Want to test a manufacturer's claim that their phone runs at least 28 hours
 
@@ -24,6 +21,7 @@ Alternative Hypothesis: Average blood pressure decreases (left-tailed)
 
 
 ### Z-Test example
+[[Z-Test]]
 Benzene is a toxic chemical. A manufacturer claims that its wastewater meets the federal regulation w a mean concentration of 7980 ppm. 10 Random samples collected and are found to have an average of 7906 ppm. Assume the benzene concentration in plant wastewater have been normally distributed with a standard deviation of 80 ppm. Use a significance level of 0.01
 
 std dev - 80 ppm
@@ -50,6 +48,7 @@ p ~ 0.0017
 
 
 ### T-Test example
+[[T-Test]]
 A machine produces metal rods used in automobiles, a random sample of 12 rods is selected and diameters measured in mm:
 8.23, 8.29, 8.19, 8.14, 8.31, 8.19, 8.29, 8.32, 8.42, 8.24, 8.3, 8.4
 
@@ -68,4 +67,7 @@ Sample size is under 30 and the population isn't said to be normally distributed
 5. $H_0$ will be rejected if 2\*p-value is less than 0.05
 6. Computation
 #### $t = \displaystyle\frac{8.28-8.2}{\frac{0.08}{\sqrt{12}}}$ and $df = 12 - 1=11$ $$t=3.177$$ p-value = $0.088$, 2* 0.0088 = 0.0176
-7. Conclusion - 0.0176 < 0.05, sufficient evidence to reject null hypothesis, mean rod diameter is not 8.20mm
+7. Conclusion - 0.0176 < 0.05, sufficient evidence to reject null hypothesis, evidence indicates mean rod diameter is not 8.20mm
+
+
+### Proportion example
