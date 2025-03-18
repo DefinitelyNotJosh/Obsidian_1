@@ -13,5 +13,13 @@ probability next patient in clinical study is not sick
 Probability next patient coming participates in clinical study?
 0.25
 For a known patient in clinical study, probability is not sick?
-0.16
+0.2
 For patient who is not sick, probability patient is in the clinical study
+0.72
+
+
+### Maximum Posteriori Learning (MAP)
+Goal: Find a maximum posterior hypothesis $h_{map}$
+#### $h_{map}$ is maximum likelihood hypothesis
+
+### $$argmaxP(h|D)=\frac{P(D|h)P(h)}{P(D)}$$
