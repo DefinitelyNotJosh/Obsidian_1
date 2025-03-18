@@ -7,3 +7,4 @@ Entities move between states according to transition probabilities
 - Probabilities for which no transitions
 - Exaptation
 
+#### Markov's Statistical Equilibrium 
