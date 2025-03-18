@@ -7,6 +7,7 @@ creates data
 You can count discretely - each individual step has it's own probability - a snapshot
 #### Probabilistic Belief
 Probability compounds, depends on previous actions
+[[Markov Graphical Models]]
 
 #### [[Bayesian Learning]]
 
