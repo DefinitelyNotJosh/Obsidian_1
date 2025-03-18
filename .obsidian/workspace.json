@@ -6,7 +6,7 @@
       {
         "id": "b14e75d4c10b8643",
         "type": "tabs",
-        "dimension": 49.561883899233294,
+        "dimension": 29.520295202952028,
         "children": [
           {
             "id": "d74bac20d6bc220d",
@@ -28,63 +28,35 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bayesian Learning.md",
+                "file": "Haskell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bayesian Learning"
+              "title": "Haskell"
             }
           },
           {
-            "id": "1223984d9d0d3a8d",
+            "id": "fa4a3ede288d7259",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bayesian Learning.md",
+                "file": "Lists in Haskell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bayesian Learning"
-            }
-          },
-          {
-            "id": "8a030590e2531005",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probabilistic Machine Learning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Probabilistic Machine Learning"
-            }
-          },
-          {
-            "id": "291e93887507371b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bayesian Learning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bayesian Learning"
+              "title": "Lists in Haskell"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "860cd487e1ce4290",
         "type": "tabs",
-        "dimension": 50.438116100766706,
+        "dimension": 70.47970479704797,
         "children": [
           {
             "id": "5a76b56b11042aba",
@@ -176,26 +148,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bayesian Learning.md",
+                "file": "Hypothesis Testing for Population Proportion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bayesian Learning"
-            }
-          },
-          {
-            "id": "2f98288aebb864ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bayes' Theorem.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bayes' Theorem"
+              "title": "Hypothesis Testing for Population Proportion"
             }
           },
           {
@@ -471,20 +429,19 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "cee0695ed6b4c4c3",
+  "active": "fa4a3ede288d7259",
   "lastOpenFiles": [
-    "Data (statistics)-DESKTOP-JGI2LOS.md",
+    "Naive Bayes Classifier.md",
     "Bayes' Theorem.md",
-    "Hypothesis Testing Examples.md",
     "Bayesian Learning.md",
-    "Probabilistic Machine Learning.md",
-    "Hypothesis Testing for Population Proportion.md",
     "Probabilistic Machine Learning-DESKTOP-JGI2LOS.md",
-    "7-Step Method.md",
-    "Machine Learning.md",
+    "Probabilistic Machine Learning.md",
     "Haskell.md",
+    "Hypothesis Testing for Population Proportion.md",
     "Lists in Haskell.md",
     "T-Test.md",
+    "Hypothesis Testing Examples.md",
+    "7-Step Method.md",
     "Z-Test.md",
     "Hypothesis Testing.md",
     "T-Test Example.md",
@@ -497,6 +454,7 @@
     "Data (statistics).md",
     "C++.md",
     "CS-429 HW5.md",
+    "Machine Learning.md",
     "Supervised Learning.md",
     "Unsupervised Learning.md",
     "Software Engineering.md",
