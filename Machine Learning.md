@@ -15,6 +15,13 @@
 
 ### [[Supervised Learning]] (Clustering document)
 
+## Week 9-10
+### [[Probabilistic Machine Learning]]
+### [[Bayesian Learning]]
+### [[Logistic Regression]]
+### [[Markov Graphical Models]]
+
+
 
 
 
