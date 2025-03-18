@@ -8,7 +8,7 @@ You can count discretely - each individual step has it's own probability - a sna
 #### Probabilistic Belief
 Probability compounds, depends on previous actions
 
-
+#### [[Bayesian Learning]]
 
 #### Discriminant and Generative models
 

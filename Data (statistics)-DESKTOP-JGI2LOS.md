@@ -147,7 +147,8 @@ Conditional probability of event $A$ given event $B$ has occurred is denoted as 
 If the sample space is partitioned into 2+ subevents, the probability of event $B$ can be expressed by conditional probabilities given each of the subevents
 Let a sample space $S$ be partitioned into $k$ subregions $S_1,S_2,S_3,...S_k$. let $B$ be an event in $S$. Then $$P(B)=P(B|S_1)P(S_1)+P(B|S_2)P(S_2)+P(B|S_3)P(S_3)+...+P(B|S_k)P(S_k)$$
 
-#### Bayes' Theorem
+### [[Bayes' Theorem]]
+#### Bayes Theorem
 Relates the probability of an event $A$ given a condition $B$ to the probability of condition $B$ given that the event $A$ occurred. In a nutshell, allows $P(B|A)$ to be calculated from $P(A|B)$.
 Let $A$ and $B$ be the events in the same sample space such that $P(A)=0$ and $P(B)\neq0$. Then, $$P(A|B)=\frac{P(B|A)P(A))}{P(B)}=\frac{P(B|A)P(A)}{P(B|A)P(A)+P(B|\overline{A})P(\overline{A})}$$
 ## Reading 5
