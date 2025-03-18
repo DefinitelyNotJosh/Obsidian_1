@@ -13,5 +13,5 @@ probability next patient in clinical study is not sick
 Probability next patient coming participates in clinical study?
 0.25
 For a known patient in clinical study, probability is not sick?
-
+0.16
 For patient who is not sick, probability patient is in the clinical study
