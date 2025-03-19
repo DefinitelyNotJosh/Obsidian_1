@@ -6,7 +6,7 @@
       {
         "id": "b14e75d4c10b8643",
         "type": "tabs",
-        "dimension": 65.5829596412556,
+        "dimension": 42.152466367713004,
         "children": [
           {
             "id": "d74bac20d6bc220d",
@@ -126,7 +126,7 @@
       {
         "id": "860cd487e1ce4290",
         "type": "tabs",
-        "dimension": 34.417040358744394,
+        "dimension": 57.847533632286996,
         "children": [
           {
             "id": "5a76b56b11042aba",
@@ -557,15 +557,16 @@
   },
   "active": "6d926f791a96dfc5",
   "lastOpenFiles": [
+    "Z-Test.md",
+    "Type II Error.md",
     "Z-Table.md",
+    "Probabilistic Machine Learning.md",
+    "Hypothesis Testing Examples.md",
     "Hypothesis Testing for Population Proportion.md",
     "Data (statistics).md",
     "7-Step Method.md",
-    "Type II Error.md",
     "Machine Learning.md",
     "Hypothesis Testing.md",
-    "Hypothesis Testing Examples.md",
-    "Probabilistic Machine Learning.md",
     "Bayesian Learning.md",
     "Naive Bayes Classifier.md",
     "Markov Graphical Models.md",
@@ -576,7 +577,6 @@
     "Haskell.md",
     "Lists in Haskell.md",
     "T-Test.md",
-    "Z-Test.md",
     "T-Test Example.md",
     "Tukey Honestly Significant Difference (HSD).md",
     "Pasted image 20250315113419.png",
