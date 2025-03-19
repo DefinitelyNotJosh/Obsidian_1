@@ -72,3 +72,19 @@ Sample size is under 30 and the population isn't said to be normally distributed
 
 ### Proportion example
 [[Hypothesis Testing for Population Proportion]]
+The fraction of a defective integrated circuits produced in a photolithography process is being studied, a random sample of 300 circuits is tested, revealing 18 defective circuits
+
+a) why is the proportions test required
+
+b) Use the data to test the hypothesis that the true population of defective circuits is not 0.04 using $\alpha = 0.05$
+
+1. Parameter of interest - proportion of defective rods
+2. Null hypoth. - The population proportion of defective circuits is 0.04
+3. Alternative hypoth. - The population proportion of defective rods is not 0.04
+4. Test statistic - z-score
+#### $$z = \frac{\hat{p}-p_0}{\sqrt{\displaystyle\frac{p_0 (1-p_0)}{n}}}$$
+5. $H_0$ will be rejected if 2\*p-value is less than 0.05
+6. Computation
+#### $$z = \frac{0.06-0.04}{\sqrt{\displaystyle\frac{0.04 (1-0.04)}{300}}}$$$$z=1.77$$[[Z-Table]] 
+p-value = $0.0384$, 2* 0.0384 = 0.0768
+7. Conclusion - 0.0768 > 0.05, insufficient evidence to reject null hypothesis, evidence does not suggest that the population proportion of defective rods isn't 0.04
