@@ -20,34 +20,6 @@
               "icon": "lucide-file",
               "title": "Type II Error"
             }
-          },
-          {
-            "id": "f2e7728207e419d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hypothesis Testing Examples.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hypothesis Testing Examples"
-            }
-          },
-          {
-            "id": "2d67c7fcf9873802",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Z-Table.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Z-Table"
-            }
           }
         ]
       },
@@ -412,12 +384,12 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "953bb527b1bde8f6",
+  "active": "0d0d73f58f9559da",
   "lastOpenFiles": [
+    "Type II Error Example.md",
+    "Z-Table.md",
     "Type II Error.md",
     "Hypothesis Testing Examples.md",
-    "Z-Table.md",
-    "Type II Error Example.md",
     "Data (statistics).md",
     "Hypothesis Testing for Population Proportion.md",
     "Naive Bayes Classifier.md",

@@ -15,3 +15,4 @@ when α =0.05, then α/2 = 0.025.
 
 ### Left Tailed test: $$beta=1-\phi \left(z_{\alpha}-\frac{\delta\sqrt{n}}{\sigma} \right)$$
 ### Right  Tailed test: $$beta=\phi \left(z_{\alpha}-\frac{\delta\sqrt{n}}{\sigma} \right)-0$$
+### Sample size count
