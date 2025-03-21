@@ -204,7 +204,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -378,10 +378,10 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "6d926f791a96dfc5",
+  "active": "953bb527b1bde8f6",
   "lastOpenFiles": [
-    "Hypothesis Testing for Population Proportion.md",
     "Hypothesis Testing Examples.md",
+    "Hypothesis Testing for Population Proportion.md",
     "Hypothesis Testing.md",
     "Machine Learning.md",
     "Bayesian Learning.md",
