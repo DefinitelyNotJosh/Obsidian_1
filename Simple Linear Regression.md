@@ -22,7 +22,15 @@ Regression error is:
 - Zero for points on regression line
 
 
-#### absolute error
 regression params typically known because entire population not often observable
 - instead, random sample is obtained
 - Get estimates of $\beta_0/\beta_1$ from sample
+#### absolute error
+method to measure how far line is from points - sum of absolute error of points
+
+
+#### sum of squared errors
+another measurement of how far the line is from the points
+- sum of the squared differences of the Y values of the data points and the values from the regression line
+
+#### least squares method
