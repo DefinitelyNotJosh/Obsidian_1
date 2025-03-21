@@ -15,6 +15,9 @@ In some form or another, functions are basis for everything
 
 ### [[Haskell]]
 
+### [[Algebraic Data Types]]
+
+
 
 ### What makes functional programming what it is?
 

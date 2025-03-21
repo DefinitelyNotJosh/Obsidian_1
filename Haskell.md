@@ -1,5 +1,6 @@
 Instead of focusing on what we lose w variables, focus on what we gain with functions 
 
+#### [[Algebraic Data Types]]
 #### [[Lists in Haskell]] - lecture 15
 #### [[Functions in Haskell]] - lecture 15
 

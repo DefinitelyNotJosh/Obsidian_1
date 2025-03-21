@@ -14,6 +14,8 @@ Goal of Programming Languages is to help organize thoughts
 
 ### [[Paradigms]]
 
+
+
 **Why?**
 Some languages good at specific tasks
 - Good at programming, terrible at database
