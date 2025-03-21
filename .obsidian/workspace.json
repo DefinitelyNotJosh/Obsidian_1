@@ -292,7 +292,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vlad Savchuk.md",
+                "file": "Algebraic Data Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -302,7 +302,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Vlad Savchuk"
+              "title": "Backlinks for Algebraic Data Types"
             }
           },
           {
@@ -368,8 +368,7 @@
               "title": "All properties"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
