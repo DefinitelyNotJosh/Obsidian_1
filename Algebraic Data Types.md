@@ -205,3 +205,20 @@ gorp f [] = []
 gorp f (x:xs) f x : gorp f xs
 ```
 
+What is the type of sumLen?
+```
+sumLen = foldr (+) 0 . map length
+```
+```
+foldr (+) 0 :: [Int] -> Int
+map length :: [[d]] -> [Int]
+f . g :: (b -> c) -> (a -> b) -> (a -> c)
+```
+
+from our types we cans see a = \[\[d]], and b = \[Int] and c = Int
+
+Put all this together: 
+```
+sumLen :: [[d]] -> Int
+sumLen = foldr (+) 0 . map length
+```
