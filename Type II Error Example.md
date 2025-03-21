@@ -5,4 +5,4 @@ What is the probability that a random sample of 10 would fail to reject the null
 
 Two-tailed test $$\beta=\phi \left(z_{\alpha/2}-\frac{\delta\sqrt{n}}{\sigma} \right)-\phi\left(-z_{\alpha/2}-\frac{\delta\sqrt{n}}{\sigma} \right)$$
 
- $$\beta=\phi \left(z_{\alpha/2}-\frac{\delta\sqrt{n}}{\sigma} \right)-\phi\left(-z_{\alpha/2}-\frac{\delta\sqrt{n}}{\sigma} \right)$$
+ $$\beta=0.0132 \left(0.707-\frac{(7906-7980)\sqrt{10}}{80}\right)-\phi\left(-0.707-\frac{(7906-7980)\sqrt{10}}{80} \right)$$
