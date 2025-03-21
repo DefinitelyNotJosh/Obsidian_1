@@ -1,35 +1,9 @@
 ### [[Linear Regression]]
+### [[Correlation and Coefficient of Determination]]
+
 Way to model linear relationship between two quantitative variables using a regression line
 
 ex - house prices, relate square footage to cost
-
-### Assumptions:
-at each value of the predictor, X, probability distribution of the regression error, $\varepsilon = Y - \mathrm{E}(Y) = Y -  \beta_0 - \beta_1 X$:
-- Has a mean of zero
-- has equal variance
-- is normal
-Value of $\epsilon$ for one observation is independent of $\epsilon$ every other observation
-Should generally only be used if reasonable chance exists that the assumptions hold
-
-#### mean of zero assumption
-a "rising/falling" pattern or any strong linear trend indicates that the mean of zero assumption doesn't hold
-
-LEFT- mean of zero holds    RIGHT - mean of zero does not hold
-![[Pasted image 20250321102645.png]]
-
-#### constant variance assumption
-"funnel" pattern indicates variance does not hold
-
-LEFT- constant variance holds    RIGHT - constant variance does not hold
-![[Pasted image 20250321102927.png]]
-
-#### normality assumption
-If plotted points lie reasonably close to diagonal line, conclude that the "normality" assumption holds
-
-LEFT- normality holds    RIGHT - normality does not hold
-![[Pasted image 20250321103021.png]]
-
-#### independence assumption
 
 
 
@@ -73,7 +47,40 @@ where $\hat{Y}$ are the predicted or fitted response values based on the linear 
 is the predicted value of Y for the i'th sample value of X based on the sample regression line
 
 #### simple linear regression residual, $\varepsilon_i = Y_i - \hat{Y}_i$
-the i't estimated regression error based on sample simple linear regression line
+the i'th estimated regression error based on sample simple linear regression line
+
+### Assumptions:
+at each value of the predictor, X, probability distribution of the regression error, $\varepsilon = Y - \mathrm{E}(Y) = Y -  \beta_0 - \beta_1 X$:
+- Has a mean of zero
+- has equal variance
+- is normal
+Value of $\epsilon$ for one observation is independent of $\epsilon$ every other observation
+Should generally only be used if reasonable chance exists that the assumptions hold
+
+#### mean of zero assumption
+a "rising/falling" pattern or any strong linear trend indicates that the mean of zero assumption doesn't hold
+
+LEFT- mean of zero holds    RIGHT - mean of zero does not hold
+![[Pasted image 20250321102645.png]]
+
+#### constant variance assumption
+"funnel" pattern indicates variance does not hold
+
+LEFT- constant variance holds    RIGHT - constant variance does not hold
+![[Pasted image 20250321102927.png]]
+
+#### normality assumption
+If plotted points lie reasonably close to diagonal line, conclude that the "normality" assumption holds
+
+LEFT- normality holds    RIGHT - normality does not hold
+![[Pasted image 20250321103021.png]]
+
+#### independence assumption
+Arises through poor study design
+
+LEFT- independence holds    RIGHT - independence does not hold
+![[Pasted image 20250321103359.png]]
+
 
 
 ### Python
