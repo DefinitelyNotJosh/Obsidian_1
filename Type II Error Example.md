@@ -3,6 +3,6 @@
 
 What is the probability that a random sample of 10 would fail to reject the null hypothesis? If this probability is too high, what can be done to improve the protocol?
 
-Two-tailed test $$\beta=\phi \left(z_{\alpha/2}-\frac{\delta\sqrt{n}}{\sigma} \right)-\phi\left(-z_{\alpha/2}-\frac{\delta\sqrt{n}}{\sigma} \right)$$
+left-tailed test $$\beta=1-\phi \left(z_{\alpha}-\frac{\delta\sqrt{n}}{\sigma} \right)$$
 
- $$\beta=0.998 \left(0.00086-\frac{(7906-7980)\sqrt{10}}{80}\right)-0.998\left(-0.00086-\frac{(7906-7980)\sqrt{10}}{80} \right)$$ $$\beta=0.002$$
+ $$\beta=1-0.998305\left(-2.32-\frac{(7906-7980)\sqrt{10}}{80}\right)$$ $$\beta=0.002$$
