@@ -295,16 +295,25 @@ How close variable estimates are to one another if the estimation process is rep
 ## Reading 15
 ### [[Confidence Interval for Population Proportions]]
 
-### Reading 17
+## Reading 17
 
 ### [[Hypothesis Testing]]
 
-### Reading 18
+## Reading 18
 more in [[Hypothesis Testing]]
 ### [[Z-Test]]
 ### [[T-Test]]
 
-### Reading 20
+## Reading 20
 #### [[Hypothesis Testing for Population Proportion]]
 
+## Reading 21
+### [[F-Distribution]]
+
+### [[ANOVA]]
+### [[One-Way ANOVA]]
+
+## Reading 22
+### [[Linear Regression]]
+- [[Simple Linear Regression]]
 
