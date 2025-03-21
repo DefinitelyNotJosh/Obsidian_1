@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "2b370f767b43962e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interpreting Simple Linear Regression.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Interpreting Simple Linear Regression"
+            }
+          },
+          {
             "id": "9995d1732a7a67ce",
             "type": "leaf",
             "state": {
@@ -36,17 +50,17 @@
             }
           },
           {
-            "id": "2b370f767b43962e",
+            "id": "fbd13cfcc9610ff5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interpreting Simple Linear Regression.md",
+                "file": "ANOVA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interpreting Simple Linear Regression"
+              "title": "ANOVA"
             }
           },
           {
@@ -246,7 +260,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -420,8 +434,10 @@
   },
   "active": "2b370f767b43962e",
   "lastOpenFiles": [
-    "Interpreting Simple Linear Regression.md",
     "Simple Linear Regression.md",
+    "Interpreting Simple Linear Regression.md",
+    "ANOVA.md",
+    "One-Way ANOVA.md",
     "Correlation and Coefficient of Determination.md",
     "Data (statistics).md",
     "Naive Bayes Classifier.md",
@@ -444,8 +460,6 @@
     "Unsupervised Learning.md",
     "Z-Table.md",
     "Hypothesis Testing.md",
-    "Hypothesis Testing Examples.md",
-    "T-Test for Population Correlation Coefficient.md",
     "Pasted image 20250321103359.png",
     "Pasted image 20250321103021.png",
     "Pasted image 20250321102927.png",
