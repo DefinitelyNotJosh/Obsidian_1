@@ -204,7 +204,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -378,8 +378,9 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "b68de7d3360f4f5a",
+  "active": "6d5710117ae83330",
   "lastOpenFiles": [
+    "Naive Bayes Classifier.md",
     "Data (statistics).md",
     "Probabilistic Machine Learning.md",
     "Machine Learning.md",
@@ -408,7 +409,6 @@
     "Data (statistics)-DESKTOP-JGI2LOS.md",
     "Data Structures.md",
     "Type II Error.md",
-    "Naive Bayes Classifier.md",
     "C++.md",
     "Pasted image 20250315113419.png",
     "Pasted image 20250226083723.png",
