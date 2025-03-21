@@ -1,5 +1,7 @@
 ### [[Linear Regression]]
 ### [[Correlation and Coefficient of Determination]]
+### [[Interpreting Simple Linear Regression]]
+
 
 Way to model linear relationship between two quantitative variables using a regression line
 
