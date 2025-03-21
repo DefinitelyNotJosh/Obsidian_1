@@ -4,7 +4,7 @@
 
 What is the probability that a random sample of 10 would fail to reject the null hypothesis? If this probability is too high, what can be done to improve the protocol?
 
-left-tailed test $$\beta=1-\phi \left(z_{\alpha}-\frac{\delta\sqrt{n}}{\sigma} \right)$$
+#### left-tailed test $$\beta=1-\phi \left(z_{\alpha}-\frac{\delta\sqrt{n}}{\sigma} \right)$$
 
  $$\beta=1-\phi \left(-2.33-\frac{(7920-7980)\sqrt{10}}{80}\right)$$ $$\phi (0.0417) = 0.516$$$$\beta=1-0.516 = 0.484$$
  
