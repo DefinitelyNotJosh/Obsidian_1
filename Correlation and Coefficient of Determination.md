@@ -36,4 +36,31 @@ print(scores[['Exam1','Exam2','Exam3','Exam4']].corr())
 #### coefficient of determination
 shows how well a regression equation represents the data
 - denoted as $R^2$
-Gives ratio of 
+Gives ratio of the variance in the response variable explained by the predictor variable
+#### $$R^2 = \dfrac{\displaystyle\sum \left(\hat{Y}_i - \overline{Y}\right)^2}{\displaystyle\sum \left(Y_i - \overline{Y}\right)^2}~~ \text{or}~~ R^2=\frac{\text{explained variance}}{\text{total variance}}$$
+where $\hat{Y}_i$ is he estimated value of $Y_i$ and $\overline{Y}$ is the mean of the $Y_i$'s
+Since the coefficient of determination is the square of the correlation coefficient, $0 \leq R^2 \leq 1$
+
+### Python $R^2$
+Suppose a teacher wants to see whether Exam4 scores can be predicted using Exam1 scores. The value for R2 means that only 6.8% of the variance in Exam4 scores can be explained by the variance in Exam1 scores. The low value for R2 suggests that Exam1 is not a good predictor for how well a student would do in Exam4.
+```python
+# The necessary packages are imported
+import pandas as pd
+import scipy.stats as stats
+import statsmodels.api as sm
+from statsmodels.formula.api import ols
+
+# The ExamScores dataset is loaded
+scores = pd.read_csv('ExamScores.csv')
+
+# Creates a linear regression model
+results = ols('Exam4 ~ Exam1', data=scores).fit()
+
+# Creates an analysis of variance table
+aov_table = sm.stats.anova_lm(results, typ=2)
+
+# Prints the analysis of variance table and results
+print(aov_table)
+print(results.summary())
+```
+
