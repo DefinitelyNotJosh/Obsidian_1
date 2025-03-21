@@ -130,9 +130,68 @@ Function composition that stops the first time we get an error
 
 ```
 type Err String
-lex   :: 
-parse ::
-parse ::            [Token] 
-check :: Int     -> Stmt
-exec  :: Env Exp -> Stmt
+lex   ::            String   -> Either Err [Token]
+parse ::            [Token]  -> Either Err Stmt
+check :: Int     -> Stmt     -> Either Err Stmt
+exec  :: Env Exp -> Stmt     -> Either Err (String, Env Exp)
+```
+
+To put all this together in single function using bind operator is easy
+
+```
+runStep :: Int -> Env Exp -> String -> Either Err (String, Env Exp)
+runStep n env line = lex line
+				   >>= parse
+				   >>= check n
+				   >>= exec env
+```
+Don't have to check at each step if we have an error
+
+#### Recursive types
+
+```
+data List a = Nil | Cons a (List a)
+```
+most of our data types end up being recursive
+
+List contains every feature of data types
+- Cons is a record
+- It has 2 alternates
+- It's polymorphic in the type of elements
+- It's recursive
+
+Pattern matching works on recursive types
+```
+length' :: List a -> Int
+length' Nil              = 0
+length' (cons head tail) = 1 + length tail
+```
+In haskell, base case is usually a pattern, have to handle base case
+- compiler keeps you from writing inf. recursion
+
+Lists in haskell really defined as:
+```haskell
+data [a] = [] | a : [a]
+-- but it's really the same thing
+length []     = 0
+length (x:xs) = 1 + length xs
+```
+Write x and xs for head and tail
+
+```
+data Tree a = Leaf a | Node a (Tree a) (Tree a)
+
+
+flip :: Tree a -> Tree a
+flip (Leaf x) = Leaf x
+flip (Node x...
+```
+
+noDups 
+```
+noDups t = noDups' t []
+	where
+		noDups' (Leaf x)     seen = not (elem x seen)
+		noDups' (Node x | r) seen = not (elem x seen) &&
+									noDups' (x:see)
 ```
