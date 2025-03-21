@@ -304,3 +304,7 @@ more in [[Hypothesis Testing]]
 ### [[Z-Test]]
 ### [[T-Test]]
 
+### Reading 20
+#### [[Hypothesis Testing for Population Proportion]]
+
+
