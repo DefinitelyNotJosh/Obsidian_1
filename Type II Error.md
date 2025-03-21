@@ -1,5 +1,8 @@
 ### failure to reject a false null hypothesis - false negative
 
+#### [[Type II Error Example]]
+
+
 ## Probability of $\beta$ for [[Z-Test]]
 
 #### Where $\delta=\mu_{true}-\mu_0$
