@@ -7,6 +7,4 @@ Take log of probabilities and add them - log of products is the sum
 
 Smoothing:
 
-
-
 [[Logistic Regression]]
