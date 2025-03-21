@@ -73,12 +73,8 @@ map f (x:xs) = f x : map f xs
 
 ```haskell
 filter :: (a -> Bool) -> [a] -> [a]
-filter _ [] = []
+filter p [] = []
 filter p (x:xs) = if p x then x : filter p xs else filter p xs
-
-%% example - find if a number is prime %%
-
-
 
 ```
 Haskell example: use filter to find if a number is prime: 
@@ -90,8 +86,8 @@ A function in Haskell has a type, which indicates the type of values it takes as
 Easily most versatile function
 ```haskell
 foldr :: (a -> b -> b) -> b -> [a] -> b
-foldr _ v [] = v
-foldr f v (x:xs) = f x (foldr f v xs)
+foldr f v [] = v
+foldr f v (x:xs) = x 'f' (foldr f v xs)
 ```
 foldr combines all the elements of a list into a single value, starting from the right.
 
@@ -104,7 +100,7 @@ f is our recursive case
 
 In rust:
 ```rust
-fn legnth(list) -> usize {
+fn length(list) -> usize {
 	match list {
 		Nil => 0
 		Cons => 1 + lenfth(tail)
@@ -145,4 +141,3 @@ take :: Int -> [a] -> [a]
 zip pairs lists up by element
 drop removes the first n elements
 take only keeps the first n elements
-

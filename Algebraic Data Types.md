@@ -187,11 +187,21 @@ flip (Leaf x) = Leaf x
 flip (Node x...
 ```
 
-noDups 
+noDups - checks if here are any duplicates in paths along a tree
 ```
 noDups t = noDups' t []
 	where
 		noDups' (Leaf x)     seen = not (elem x seen)
 		noDups' (Node x | r) seen = not (elem x seen) &&
-									noDups' (x:see)
+								   noDups' | (x:seen) &&
+								   noDups' r (x:seen)
 ```
+
+
+#### Type inference
+You don't have to give types to things in haskell - it can figure it out
+```
+gorp f [] = []
+gorp f (x:xs) f x : gorp f xs
+```
+
