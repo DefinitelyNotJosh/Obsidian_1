@@ -3,6 +3,8 @@
 ### [[Interpreting Simple Linear Regression]]
 ### [[Confidence Intervals for Simple Linear Regression]]
 ### [[Testing Simple Linear Regression (SLR) parameters]]
+### [[ANOVA F-Test]]
+
 
 Way to model linear relationship between two quantitative variables using a regression line
 

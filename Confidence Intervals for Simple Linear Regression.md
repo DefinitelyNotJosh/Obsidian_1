@@ -45,3 +45,9 @@ print('\nPrediction:\n', model.predict(x0))
 intervals = model.get_prediction(x0)
 print('\nIntervals:\n', intervals.summary_frame())
 ```
+
+
+### Confidence interval for the slope
+interval around $b_1$ that quantifies the sampling uncertainty when $b_1$ is used to estimate $\beta_1$
+#### $$[b_1 - t^*(SE), b_1 + t^*(SE)]$$
+where $SE$ is the standard error, and $t^*$ depends on the degrees of freedom and confidence level of interest, can be found in the [[T-Table]]

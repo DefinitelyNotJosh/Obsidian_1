@@ -26,3 +26,7 @@ model = smf.ols('Exam4 ~ Exam2', scores).fit()
 print(model.summary())
 ```
 
+
+### Test intercept parameter
+Testing if $\beta_0=0$ is only warranted if the response variable $Y$ could also be 0 when the predictor variable $X$ is 0
+
