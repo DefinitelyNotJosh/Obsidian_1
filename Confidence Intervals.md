@@ -18,3 +18,5 @@ Reminder - standard error is the standard deviation of the sampling distribution
 #### [[T-Confidence Intervals - T-Test]]
 
 #### [[Confidence Interval for Population Proportions]]
+
+#### [[Confidence Intervals for Simple Linear Regression]]
