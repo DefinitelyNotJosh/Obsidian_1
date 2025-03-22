@@ -11,7 +11,7 @@ chr :: Int -> Char
 ord :: Char -> Int
 ```
 #### Types in Haskell
-Can make a type synonym with type keword
+Can make a type synonym with type keyword
 ```
 type Name = String
 type Length = Int
