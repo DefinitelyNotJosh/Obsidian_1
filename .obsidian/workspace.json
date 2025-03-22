@@ -209,12 +209,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebraic Data Types.md",
+                "file": "Haskell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algebraic Data Types"
+              "title": "Haskell"
             }
           },
           {
@@ -232,7 +232,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -404,8 +404,10 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "391b24564adb9311",
+  "active": "8d049817e81ed9a0",
   "lastOpenFiles": [
+    "Algebraic Data Types.md",
+    "Correlation and Coefficient of Determination.md",
     "ANOVA F-Test.md",
     "Pasted image 20250322102447.png",
     "Pasted image 20250322102031.png",
@@ -418,12 +420,10 @@
     "Confidence Intervals for Simple Linear Regression.md",
     "Data (statistics).md",
     "T-Test for Population Correlation Coefficient.md",
-    "Correlation and Coefficient of Determination.md",
     "Confidence Intervals.md",
     "T-Test.md",
     "Linear Regression.md",
     "Lists in Haskell.md",
-    "Algebraic Data Types.md",
     "Haskell.md",
     "Probabilistic Machine Learning.md",
     "Functions in Haskell.md",
