@@ -315,6 +315,11 @@ more in [[Hypothesis Testing]]
 
 ## Reading 22
 ### [[Linear Regression]]
-- [[Simple Linear Regression]]
+- [[Simple Linear Regression (SLR)]]
 ### [[Correlation and Coefficient of Determination]]
 ### [[T-Test for Population Correlation Coefficient]]
+
+## Reading 23
+### [[Interpreting Simple Linear Regression]]
+### [[Confidence Intervals for Simple Linear Regression]]
+### [[]]

@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Correlation and Coefficient of Determination.md",
+                "file": "Simple Linear Regression (SLR).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Correlation and Coefficient of Determination"
+              "title": "Simple Linear Regression (SLR)"
             }
           },
           {
@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Simple Linear Regression.md",
+                "file": "Interpreting Simple Linear Regression.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Simple Linear Regression"
+              "title": "Interpreting Simple Linear Regression"
             }
           },
           {
@@ -232,7 +232,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -405,19 +405,20 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "5aa87ec55e39b037",
+  "active": "52d5a0a75ae90950",
   "lastOpenFiles": [
+    "Data (statistics).md",
     "Confidence Intervals for Simple Linear Regression.md",
-    "Simple Linear Regression.md",
+    "Hypothesis Testing for Population Proportion.md",
+    "Simple Linear Regression (SLR).md",
+    "Correlation and Coefficient of Determination.md",
+    "Interpreting Simple Linear Regression.md",
     "Confidence Intervals.md",
     "T-Test.md",
     "Linear Regression.md",
     "T-Test for Population Correlation Coefficient.md",
-    "Correlation and Coefficient of Determination.md",
-    "Data (statistics).md",
     "Lists in Haskell.md",
     "Algebraic Data Types.md",
-    "Interpreting Simple Linear Regression.md",
     "Haskell.md",
     "Probabilistic Machine Learning.md",
     "Functions in Haskell.md",
@@ -431,7 +432,6 @@
     "Bayes' Theorem.md",
     "Type II Error Example.md",
     "Z-Test.md",
-    "Hypothesis Testing for Population Proportion.md",
     "Unsupervised Learning.md",
     "Pasted image 20250321103359.png",
     "Pasted image 20250321103021.png",
