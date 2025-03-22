@@ -2,7 +2,7 @@
 ### [[Correlation and Coefficient of Determination]]
 ### [[Interpreting Simple Linear Regression]]
 ### [[Confidence Intervals for Simple Linear Regression]]
-### [[Testing Simple Linear Regressio]]
+### [[Testing Simple Linear Regression (SLR) parameters]]
 
 Way to model linear relationship between two quantitative variables using a regression line
 

@@ -322,4 +322,4 @@ more in [[Hypothesis Testing]]
 ## Reading 23
 ### [[Interpreting Simple Linear Regression]]
 ### [[Confidence Intervals for Simple Linear Regression]]
-### [[]]
+### [[Testing Simple Linear Regression (SLR) parameters]]
