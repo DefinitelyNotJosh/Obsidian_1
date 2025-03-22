@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ANOVA F-Test.md",
+                "file": "Correlation and Coefficient of Determination.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ANOVA F-Test"
+              "title": "Correlation and Coefficient of Determination"
             }
           },
           {
@@ -406,9 +406,11 @@
   },
   "active": "391b24564adb9311",
   "lastOpenFiles": [
+    "ANOVA F-Test.md",
+    "Pasted image 20250322102447.png",
+    "Pasted image 20250322102031.png",
     "Interpreting Simple Linear Regression.md",
     "Simple Linear Regression (SLR).md",
-    "ANOVA F-Test.md",
     "Testing Simple Linear Regression (SLR) parameters.md",
     "One-Way ANOVA.md",
     "ANOVA.md",
@@ -431,7 +433,6 @@
     "Naive Bayes Classifier.md",
     "Machine Learning.md",
     "Logistic Regression.md",
-    "Markov Graphical Models.md",
     "Pasted image 20250321103359.png",
     "Pasted image 20250321103021.png",
     "Pasted image 20250321102927.png",
@@ -440,8 +441,6 @@
     "Pasted image 20250226083723.png",
     "Pasted image 20230906111020.png",
     "Pasted image 20230830160503.png",
-    "Pasted image 20230829085746.png",
-    "Pasted image 20250224084023.png",
     "Anchor Seminor 8/28",
     "Anchor Seminor 8",
     "Septuagint",
