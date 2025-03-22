@@ -97,11 +97,4 @@ import numpy as np
 import scipy.stats as st
 
 x = np.array([0, 3, 7, 10])
-y = np.array([5, 5, 27, 31])
-
-model = st.linregress(x,y)
-
-print(model)
-
-print("Predicted value for X=3:",np.dot([3, 1],[model[0], model[1]]))
-```
+y = np.ar
