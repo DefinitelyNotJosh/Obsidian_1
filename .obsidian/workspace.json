@@ -195,12 +195,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebraic Data Types.md",
+                "file": "Lists in Haskell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algebraic Data Types"
+              "title": "Lists in Haskell"
             }
           },
           {
@@ -306,7 +306,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebraic Data Types.md",
+                "file": "Lists in Haskell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -316,7 +316,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Algebraic Data Types"
+              "title": "Backlinks for Lists in Haskell"
             }
           },
           {
@@ -407,6 +407,7 @@
   },
   "active": "8d049817e81ed9a0",
   "lastOpenFiles": [
+    "Algebraic Data Types.md",
     "Testing Simple Linear Regression (SLR) parameters.md",
     "Pasted image 20250322102447.png",
     "Pasted image 20250322102031.png",
@@ -418,7 +419,6 @@
     "Probabilistic Machine Learning.md",
     "Lists in Haskell.md",
     "Functions in Haskell.md",
-    "Algebraic Data Types.md",
     "Functional Programming.md",
     "Programming Languages.md",
     "Bayesian Learning.md",
