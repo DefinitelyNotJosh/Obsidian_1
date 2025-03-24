@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "One-Way ANOVA.md",
+                "file": "Functions in Haskell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "One-Way ANOVA"
+              "title": "Functions in Haskell"
             }
           },
           {
@@ -403,7 +403,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "One-Way ANOVA.md",
+                "file": "Functions in Haskell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -413,7 +413,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for One-Way ANOVA"
+              "title": "Backlinks for Functions in Haskell"
             }
           },
           {
@@ -422,12 +422,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 Timothy 2-3.md",
+                "file": "Functions in Haskell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1 Timothy 2-3"
+              "title": "Outgoing links from Functions in Haskell"
             }
           },
           {
@@ -479,7 +479,8 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -504,14 +505,16 @@
   },
   "active": "0e71a8314a3094a6",
   "lastOpenFiles": [
-    "Tukey Honestly Significant Difference (HSD).md",
     "One-Way ANOVA.md",
+    "Tukey Honestly Significant Difference (HSD).md",
+    "Section.md",
+    "this.md",
+    "ANOVA.md",
+    "Hypothesis Testing.md",
     "F-Distribution.md",
     "ANOVA F-Test.md",
     "Hypothesis Testing Examples.md",
     "Hypothesis Testing for Population Proportion.md",
-    "ANOVA.md",
-    "Hypothesis Testing.md",
     "Correlation and Coefficient of Determination.md",
     "Naive Bayes Classifier.md",
     "Logistic Regression.md",
@@ -530,8 +533,6 @@
     "Programming Languages.md",
     "Bayesian Learning.md",
     "Data (statistics).md",
-    "Machine Learning.md",
-    "Markov Graphical Models.md",
     "Pasted image 20250321103359.png",
     "Pasted image 20250321103021.png",
     "Pasted image 20250321102927.png",

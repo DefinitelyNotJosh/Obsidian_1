@@ -61,7 +61,7 @@ If null hypothesis is rejected, further analysis is required because the F-test 
 between group variance = variance in mean values of population distribution
 within group variance = variance of all the samples
 5. reject $H_0$ if - F < $\alpha$
-6. Calculate F-Statistic
+6. Calculate F-Statistic  - can use [Section 22.6 - EGR 361: Analysis of Engineering Data | zyBooks](https://learn.zybooks.com/zybook/UPEGR361ZuendelWinter2025/chapter/22/section/6)
 7. Conclusion - reject $H_0$ or fail to reject $H_0$
 #### Step 2
 If you reject $H_0$, do [[Tukey Honestly Significant Difference (HSD)]]

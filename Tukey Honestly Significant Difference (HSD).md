@@ -2,6 +2,8 @@
 
 
 
+#### Can use [Section 22.7 - EGR 361: Analysis of Engineering Data | zyBooks](https://learn.zybooks.com/zybook/UPEGR361ZuendelWinter2025/chapter/22/section/7)
+
 #### Python code:
 The `MultipleComparison()` function take the data frame column that contains the values and the data frame column that contains the levels as inputs and builds the models. The `tukeyhsd()` function displays the 95% Tukey's confidence intervals. The statsmodels.stats.multicomp library must be imported to use these functions.
 ```python
