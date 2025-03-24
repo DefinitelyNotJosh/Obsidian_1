@@ -8,300 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d74bac20d6bc220d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data (statistics).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Data (statistics)"
-            }
-          },
-          {
-            "id": "9995d1732a7a67ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hypothesis Testing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hypothesis Testing"
-            }
-          },
-          {
-            "id": "3e56196ace877cf6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ANOVA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ANOVA"
-            }
-          },
-          {
-            "id": "0e71a8314a3094a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functions in Haskell.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Functions in Haskell"
-            }
-          },
-          {
-            "id": "2922ccae25ea5b24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tukey Honestly Significant Difference (HSD).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tukey Honestly Significant Difference (HSD)"
-            }
-          },
-          {
-            "id": "157dfa606dafb59c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "F-Distribution.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "F-Distribution"
-            }
-          },
-          {
-            "id": "dc6c007f02cc0841",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ANOVA F-Test.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ANOVA F-Test"
-            }
-          },
-          {
-            "id": "c017c4b66ee2f0e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hypothesis Testing Examples.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hypothesis Testing Examples"
-            }
-          },
-          {
-            "id": "c78c274eb5ace7f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "T-Test for Population Correlation Coefficient.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "T-Test for Population Correlation Coefficient"
-            }
-          },
-          {
-            "id": "52d5a0a75ae90950",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Correlation and Coefficient of Determination.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Correlation and Coefficient of Determination"
-            }
-          },
-          {
-            "id": "a0f48547336a5e19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linear Regression.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Linear Regression"
-            }
-          },
-          {
-            "id": "cac139afa850bb79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hypothesis Testing for Population Proportion.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hypothesis Testing for Population Proportion"
-            }
-          },
-          {
-            "id": "38f5ca03db8c6fae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "T-Test.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "T-Test"
-            }
-          },
-          {
-            "id": "6d926f791a96dfc5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hypothesis Testing Examples.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hypothesis Testing Examples"
-            }
-          },
-          {
-            "id": "a0b82240defaf03e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hypothesis Testing for Population Proportion.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hypothesis Testing for Population Proportion"
-            }
-          },
-          {
-            "id": "51007ddd6e7851dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Z-Test.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Z-Test"
-            }
-          },
-          {
-            "id": "448d35b0b879083e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Machine Learning"
-            }
-          },
-          {
-            "id": "798fe6a2353985ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probabilistic Machine Learning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Probabilistic Machine Learning"
-            }
-          },
-          {
-            "id": "6d5710117ae83330",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Haskell.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Haskell"
-            }
-          },
-          {
-            "id": "8d049817e81ed9a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Naive Bayes Classifier.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Naive Bayes Classifier"
-            }
-          },
-          {
-            "id": "5b533f76cc3a6547",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Logistic Regression.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Logistic Regression"
-            }
-          },
-          {
             "id": "8a0a29e59d4c11d8",
             "type": "leaf",
             "state": {
@@ -328,9 +34,79 @@
               "icon": "lucide-file",
               "title": "Naive Bayes Classifier"
             }
+          },
+          {
+            "id": "cebbfee854d69695",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming Languages.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Programming Languages"
+            }
+          },
+          {
+            "id": "2bfe43047c93d5c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Haskell.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Haskell"
+            }
+          },
+          {
+            "id": "761fbcdfbe523017",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional Programming.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Functional Programming"
+            }
+          },
+          {
+            "id": "daa8f35e7bfcbbac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Haskell.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Haskell"
+            }
+          },
+          {
+            "id": "2ec988f47114b0a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Imperative Programming.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Imperative Programming"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -403,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functions in Haskell.md",
+                "file": "Haskell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -413,7 +189,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Functions in Haskell"
+              "title": "Backlinks for Haskell"
             }
           },
           {
@@ -422,12 +198,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functions in Haskell.md",
+                "file": "Haskell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Functions in Haskell"
+              "title": "Outgoing links from Haskell"
             }
           },
           {
@@ -503,36 +279,36 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "0e71a8314a3094a6",
+  "active": "daa8f35e7bfcbbac",
   "lastOpenFiles": [
-    "One-Way ANOVA.md",
-    "Tukey Honestly Significant Difference (HSD).md",
-    "Section.md",
-    "this.md",
-    "ANOVA.md",
+    "Functional Programming.md",
+    "Imperative Programming.md",
+    "Haskell.md",
+    "Programming Languages.md",
+    "Structured Programming.md",
+    "Lists in Haskell.md",
+    "Logistic Regression.md",
+    "Naive Bayes Classifier.md",
+    "Probabilistic Machine Learning.md",
     "Hypothesis Testing.md",
+    "ANOVA.md",
+    "Functions in Haskell.md",
+    "Tukey Honestly Significant Difference (HSD).md",
     "F-Distribution.md",
     "ANOVA F-Test.md",
     "Hypothesis Testing Examples.md",
-    "Hypothesis Testing for Population Proportion.md",
+    "T-Test for Population Correlation Coefficient.md",
     "Correlation and Coefficient of Determination.md",
-    "Naive Bayes Classifier.md",
-    "Logistic Regression.md",
-    "Lists in Haskell.md",
-    "Algebraic Data Types.md",
-    "Testing Simple Linear Regression (SLR) parameters.md",
+    "Linear Regression.md",
+    "Hypothesis Testing for Population Proportion.md",
+    "T-Test.md",
+    "Z-Test.md",
+    "Machine Learning.md",
+    "One-Way ANOVA.md",
+    "Section.md",
+    "this.md",
     "Pasted image 20250322102447.png",
     "Pasted image 20250322102031.png",
-    "Confidence Intervals for Simple Linear Regression.md",
-    "Simple Linear Regression (SLR).md",
-    "Interpreting Simple Linear Regression.md",
-    "Haskell.md",
-    "Probabilistic Machine Learning.md",
-    "Functions in Haskell.md",
-    "Functional Programming.md",
-    "Programming Languages.md",
-    "Bayesian Learning.md",
-    "Data (statistics).md",
     "Pasted image 20250321103359.png",
     "Pasted image 20250321103021.png",
     "Pasted image 20250321102927.png",
