@@ -116,7 +116,7 @@ length list = foldr (\head tailLen -> 1 + tailLen) 0 list
 We can do more complicated calls
 
 ```haskell
-countLetters :: [Char] -> Omt
+countLetters :: [Char] -> Int
 countLetters str = foldr add 0 (words str)
 	where add s count = length s + count
 ```
