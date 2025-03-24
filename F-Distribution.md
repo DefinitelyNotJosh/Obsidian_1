@@ -12,7 +12,7 @@ where $k-1$ is the degrees of freedom $df_B$
 where $X_ij$ is the $i$th observation in the $j$th group, and $\overline{X_j}$ is the sample mean for the $j$th group.
 #### Mean squares within groups (MSW): $$MSW =  \displaystyle\frac{\displaystyle\sum_{ij} (X_{ij} - \overline{X_j}) ^2}{n-k}$$
 where $n$ is the overall sample size and $n-k$ is the degrees of freedom $df_W$
-### F-statistic: $$F = \frac{MSB}{MSW}$$
+### [[ANOVA F-Test]] F-statistic $$F = \frac{MSB}{MSW}$$
 
 ### Python code:
 

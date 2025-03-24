@@ -1,6 +1,8 @@
 ### One-way analysis of variance (one way [[ANOVA]])
+
+#### 2 or more samples
 #### [[ANOVA F-Test]]
-#### One-way ANOVA Controls the errors associated with comparing multiple population means (Can also use predictor variables - ex, test scores,. Determines whether a statistically significant difference exists among the means of three or more populations.
+#### One-way ANOVA Controls the errors associated with comparing multiple population means (can also use predictor variables - ex, test scores, speed, diameter of a rod, temperature). Determines whether a statistically significant difference exists among the means of three or more populations.
 
 In practice, no population parameters, only have a few sample populations, no "prior thing" to analyze
 
@@ -14,7 +16,16 @@ Alternative hypothesis: Two groups with unequal means exist
 - Normality. The underlying distribution of the populations from which the samples are drawn should be approximately normal.
 - Homogeneity. The variances of the population distributions should be equal.
 
-#### Procedure:
+EXAMPLES
+Medical environment - have a drug test
+- GROUP A (w/drug), GROUP B(w/placebo), GROUP C(w/50% drug)
+Is there a statistically significant difference in blood pressure?
+
+Engineering environment - sterile vacuum seal packaging
+- MACHINE A(), MACHINE B, MACHINE C
+Is there a difference in peel strength? 
+
+
 #### Procedure:
 1. Set the null and alternative hypotheses
 	$H_0: \mu_1 = \mu_2 = ... = \mu_k$
@@ -31,8 +42,36 @@ Alternative hypothesis: Two groups with unequal means exist
     - If the p-value is greater than or equal to the significance level, insufficient evidence exists to reject the null hypothesis $H_0$.
 
 
+
 ### Post-hoc tests
 If null hypothesis is rejected, further analysis is required because the F-test does not determine which groups have different means. Post-hoc analysis determines which groups have different means, which group has highest mean, lowest mean, etc.
+
+
+
+
+
+### [[7-Step Method]] example
+
+#### Step 1
+1. Parameter of interest  - Find parameter
+2. Null hypothesis - $H_0: \mu_1 = \mu_2 = ... = \mu_k$
+3. Alternate hypothesis - $H_a: \mu_i \neq \mu_j, ~\text{for some}~ i \neq j$
+4. Test-statistic - [[ANOVA F-Test]]  (check [[F-Distribution]] for meanings) - $$F=\frac{MSB}{MSW}~~\text{or}~~F=\frac{\text{between group variance}}{\text{within group variance}}$$
+
+between group variance = variance in mean values of population distribution
+within group variance = variance of all the samples
+5. reject $H_0$ if - F < $\alpha$
+6. Calculate F-Statistic
+7. Conclusion - reject $H_0$ or fail to reject $H_0$
+#### Step 2
+If you reject $H_0$, do [[Tukey Honestly Significant Difference (HSD)]]
+
+
+
+
+
+
+
 #### [[Tukey Honestly Significant Difference (HSD)]]
 Gives the 95% confidence intervals for the mean difference between pairwise groups and determines which mean difference is statistically significant. If 0 falls in the confidence interval, then difference between means is not statistically significant
 

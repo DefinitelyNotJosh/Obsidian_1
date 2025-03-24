@@ -88,3 +88,7 @@ b) Use the data to test the hypothesis that the true population of defective cir
 #### $$z = \frac{0.06-0.04}{\sqrt{\displaystyle\frac{0.04 (1-0.04)}{300}}}$$$$z=1.77$$[[Z-Table]] 
 p-value = $0.0384$, 2* 0.0384 = 0.0768
 7. Conclusion - 0.0768 > 0.05, insufficient evidence to reject null hypothesis, evidence does not suggest that the population proportion of defective rods isn't 0.04
+
+
+
+### F-Test Example
