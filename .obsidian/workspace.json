@@ -27,12 +27,68 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Correlation and Coefficient of Determination.md",
+                "file": "Hypothesis Testing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Correlation and Coefficient of Determination"
+              "title": "Hypothesis Testing"
+            }
+          },
+          {
+            "id": "0e71a8314a3094a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "One-Way ANOVA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "One-Way ANOVA"
+            }
+          },
+          {
+            "id": "3e56196ace877cf6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ANOVA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ANOVA"
+            }
+          },
+          {
+            "id": "dc6c007f02cc0841",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ANOVA F-Test.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ANOVA F-Test"
+            }
+          },
+          {
+            "id": "c017c4b66ee2f0e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hypothesis Testing for Population Proportion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hypothesis Testing for Population Proportion"
             }
           },
           {
@@ -246,7 +302,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -303,8 +359,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "cc9b55be5114c784",
@@ -320,7 +375,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Naive Bayes Classifier.md",
+                "file": "One-Way ANOVA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -330,7 +385,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Naive Bayes Classifier"
+              "title": "Backlinks for One-Way ANOVA"
             }
           },
           {
@@ -419,17 +474,22 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "8d049817e81ed9a0",
+  "active": "0e71a8314a3094a6",
   "lastOpenFiles": [
-    "Logistic Regression.md",
+    "ANOVA.md",
+    "ANOVA F-Test.md",
+    "Hypothesis Testing.md",
+    "One-Way ANOVA.md",
+    "Hypothesis Testing for Population Proportion.md",
+    "Correlation and Coefficient of Determination.md",
     "Naive Bayes Classifier.md",
+    "Logistic Regression.md",
     "Lists in Haskell.md",
     "Algebraic Data Types.md",
     "Testing Simple Linear Regression (SLR) parameters.md",
     "Pasted image 20250322102447.png",
     "Pasted image 20250322102031.png",
     "Confidence Intervals for Simple Linear Regression.md",
-    "ANOVA F-Test.md",
     "Simple Linear Regression (SLR).md",
     "Interpreting Simple Linear Regression.md",
     "Haskell.md",
@@ -444,11 +504,6 @@
     "Bayes' Theorem.md",
     "T-Test.md",
     "Type II Error Example.md",
-    "Z-Test.md",
-    "Hypothesis Testing for Population Proportion.md",
-    "Unsupervised Learning.md",
-    "Z-Table.md",
-    "Hypothesis Testing.md",
     "Pasted image 20250321103359.png",
     "Pasted image 20250321103021.png",
     "Pasted image 20250321102927.png",

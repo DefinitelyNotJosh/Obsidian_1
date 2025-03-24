@@ -50,12 +50,12 @@ value calculated from sample data during hypothesis testing that measures degree
 - Mathematically  - difference between the estimate and the value asserted in the null hypothesis divided by the standard error
 ### Hypothesis tests and associated test statistics
 
-| Application                                      | Hypothesis test                          | Test statistic                                  |
-| ------------------------------------------------ | ---------------------------------------- | ----------------------------------------------- |
-| One or two population μ, p, known σ              | [[Z-Test]] - [[Z-Score]]                 | Z-statistic [[Z-Confidence Intervals]]          |
-| One or two population μ, unknown σ               | [[T-Test]] - [[T-Distribution - T-Test]] | t-statistic [[T-Confidence Intervals - T-Test]] |
-| Comparing a parameter among three or more groups | [[ANOVA]]                                | F-statistic [[F-Distribution]]                  |
-| Comparing categorical variables                  | Chi-square test                          | χ2-statistic                                    |
+| Application                                      | Hypothesis test                          | Test statistic                                       |
+| ------------------------------------------------ | ---------------------------------------- | ---------------------------------------------------- |
+| One or two population μ, p, known σ              | [[Z-Test]] - [[Z-Score]]                 | Z-statistic [[Z-Confidence Intervals]]               |
+| One or two population μ, unknown σ               | [[T-Test]] - [[T-Distribution - T-Test]] | t-statistic [[T-Confidence Intervals - T-Test]]      |
+| Comparing a parameter among three or more groups | [[ANOVA]]                                | F-statistic [[F-Distribution]]<br>([[ANOVA F-Test]]) |
+| Comparing categorical variables                  | Chi-square test                          | χ2-statistic                                         |
 
 #### statistically significant result
 differs enough from a null hypothesis that a conclusion can be inferred about the population
