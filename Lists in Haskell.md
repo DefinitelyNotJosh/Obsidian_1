@@ -59,7 +59,8 @@ ints = 1 : 2 : 3 : 4 : 5 : \[]
 
 #### All of haskell's lists are linked lists
 
-3 fundamental functions for lists: Map, filter, foldr. Implementations: ### 3 Fundamental Functions for Lists
+3 fundamental functions for lists: Map, filter, foldr. Implementations: 
+### 3 Fundamental Functions for Lists
 
 #### 1. `map` - Applies a function to each element of a list
 
@@ -103,7 +104,7 @@ In rust:
 fn length(list) -> usize {
 	match list {
 		Nil => 0
-		Cons => 1 + lenfth(tail)
+		Cons => 1 + length(tail)
 	}
 }
 ```

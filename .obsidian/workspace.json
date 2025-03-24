@@ -4,109 +4,138 @@
     "type": "split",
     "children": [
       {
-        "id": "b14e75d4c10b8643",
-        "type": "tabs",
+        "id": "e33c279243d72082",
+        "type": "split",
         "children": [
           {
-            "id": "8a0a29e59d4c11d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lists in Haskell.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lists in Haskell"
-            }
+            "id": "6756a166a43cc90a",
+            "type": "tabs",
+            "dimension": 20.02002002002002,
+            "children": [
+              {
+                "id": "2bfe43047c93d5c1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Haskell.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Haskell"
+                }
+              }
+            ]
           },
           {
-            "id": "b68de7d3360f4f5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Naive Bayes Classifier.md",
-                "mode": "source",
-                "source": false
+            "id": "b14e75d4c10b8643",
+            "type": "tabs",
+            "dimension": 79.97997997997997,
+            "children": [
+              {
+                "id": "8a0a29e59d4c11d8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Lists in Haskell.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Lists in Haskell"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Naive Bayes Classifier"
-            }
-          },
-          {
-            "id": "cebbfee854d69695",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming Languages.md",
-                "mode": "source",
-                "source": false
+              {
+                "id": "b68de7d3360f4f5a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Naive Bayes Classifier.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Naive Bayes Classifier"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Programming Languages"
-            }
-          },
-          {
-            "id": "2bfe43047c93d5c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Haskell.md",
-                "mode": "source",
-                "source": false
+              {
+                "id": "cebbfee854d69695",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Programming Languages.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Programming Languages"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Haskell"
-            }
-          },
-          {
-            "id": "761fbcdfbe523017",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functional Programming.md",
-                "mode": "source",
-                "source": false
+              {
+                "id": "761fbcdfbe523017",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Functional Programming.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Functional Programming"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Functional Programming"
-            }
-          },
-          {
-            "id": "daa8f35e7bfcbbac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Haskell.md",
-                "mode": "source",
-                "source": false
+              {
+                "id": "daa8f35e7bfcbbac",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Lists in Haskell.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Lists in Haskell"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Haskell"
-            }
-          },
-          {
-            "id": "2ec988f47114b0a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Imperative Programming.md",
-                "mode": "source",
-                "source": false
+              {
+                "id": "a997be231f3cf079",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Functions in Haskell.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Functions in Haskell"
+                }
               },
-              "icon": "lucide-file",
-              "title": "Imperative Programming"
-            }
+              {
+                "id": "2ec988f47114b0a4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Imperative Programming.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Imperative Programming"
+                }
+              }
+            ],
+            "currentTab": 4
           }
         ],
-        "currentTab": 5
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -179,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Haskell.md",
+                "file": "Lists in Haskell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +218,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Haskell"
+              "title": "Backlinks for Lists in Haskell"
             }
           },
           {
@@ -198,12 +227,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Haskell.md",
+                "file": "Lists in Haskell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Haskell"
+              "title": "Outgoing links from Lists in Haskell"
             }
           },
           {
@@ -281,18 +310,18 @@
   },
   "active": "daa8f35e7bfcbbac",
   "lastOpenFiles": [
+    "Functions in Haskell.md",
+    "Haskell.md",
+    "Lists in Haskell.md",
     "Functional Programming.md",
     "Imperative Programming.md",
-    "Haskell.md",
     "Programming Languages.md",
     "Structured Programming.md",
-    "Lists in Haskell.md",
     "Logistic Regression.md",
     "Naive Bayes Classifier.md",
     "Probabilistic Machine Learning.md",
     "Hypothesis Testing.md",
     "ANOVA.md",
-    "Functions in Haskell.md",
     "Tukey Honestly Significant Difference (HSD).md",
     "F-Distribution.md",
     "ANOVA F-Test.md",
