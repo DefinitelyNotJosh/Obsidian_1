@@ -151,6 +151,7 @@ Don't have to check at each step if we have an error
 
 ```
 data List a = Nil | Cons a (List a)
+
 ```
 most of our data types end up being recursive
 
@@ -165,6 +166,11 @@ Pattern matching works on recursive types
 length' :: List a -> Int
 length' Nil              = 0
 length' (cons head tail) = 1 + length tail
+
+
+-- length of list
+length []     = 0
+length (x:xs) = 1 + length xs
 ```
 In haskell, base case is usually a pattern, have to handle base case
 - compiler keeps you from writing inf. recursion
@@ -222,3 +228,46 @@ Put all this together:
 sumLen :: [[d]] -> Int
 sumLen = foldr (+) 0 . map length
 ```
+
+
+#### Functional math
+
+++ function (concatenates)
+```
+
+(++) :: [a] -> [a] -> [a]
+[] ++ ys = ys
+(x:xs) ++ ys = x : (xs ++ ys)
+```
+
+We can mathematically prove things about code - won't be tested in CS-352
+#### theorem:
+for any two lists xs, ys
+```
+reverse (xs ++ ys) = reverse ys ++ reverse xs
+```
+Facts:
+For any list xs
+- \[] ++ ys = ys
+- reverse \[] = \[]
+- xs ++ \[] = xs
+##### proof: By induction on xs
+
+Base case:
+	reverse (\[] ++ ys)
+	= reverse ys                         by definition of ++
+	= reverse ys ++ \[]                by fact 3
+	= reverse ys ++ reverse \[]   by fact 2
+
+Inductive case:
+	reverse ((x:xs) ++ ys)
+	= reverse (x:(xs ++ ys))
+	= reverse (xs ++ ys) ++ \[x]
+	= reverse ys ++ reverse xs ++ \[x]
+	= reverse ys ++ reverse (x:xs)
+Done
+
+
+
+
+
