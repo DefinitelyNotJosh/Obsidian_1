@@ -173,9 +173,22 @@ class Functor f where
 ```
 So what is f here?
 - Function that is polymorphic in the data structure
-
+##### Functors
 ```
 data Tree a = Leaf a | Branch a (Tree a) (Tree a)
 
-instance Functor Tree where
+instance Functor Tree where 
+	fmap f (Leaf x) = Leaf (f x) 
+	fmap f (Branch = x l r) = Branch (f x) (fmap f l) (fmap f r)
 ```
+Note - only makes sense if the type is a polymorphic data structure
+
+Functors are useful
+```
+scalarMult :: (Num a) => a -> Mat a -> Mat a
+scalarMult x m = fmap (x*) m
+
+toEvens :: (Functor f, Num a) => f a -> Bool
+toEvens t = fmap (x -> mod x 2 == 0) t
+```
+
