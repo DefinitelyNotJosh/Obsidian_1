@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Typeclasses.md",
+                "file": "Gabor Filter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Typeclasses"
+              "title": "Gabor Filter"
             }
           },
           {
@@ -309,6 +309,11 @@
   },
   "active": "467583a8b5375884",
   "lastOpenFiles": [
+    "Principle Component Analysis (PCA).md",
+    "Gabor Filter.md",
+    "Kernel Methods.md",
+    "CS-429 Midterm 2.md",
+    "CS-429 HW5.md",
     "Typeclasses.md",
     "Haskell.md",
     "Algebraic Data Types.md",
@@ -330,11 +335,6 @@
     "T-Test for Population Correlation Coefficient.md",
     "Correlation and Coefficient of Determination.md",
     "Linear Regression.md",
-    "Hypothesis Testing for Population Proportion.md",
-    "T-Test.md",
-    "Z-Test.md",
-    "Machine Learning.md",
-    "One-Way ANOVA.md",
     "Pasted image 20250322102447.png",
     "Pasted image 20250322102031.png",
     "Pasted image 20250321103359.png",
