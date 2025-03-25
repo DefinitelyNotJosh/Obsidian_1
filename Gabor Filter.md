@@ -18,4 +18,11 @@ Have an image - deide how big your gabor filter is (in pixels)
 	5. Make adjustments to first layer
 	6. repeat
 
-
+### H-Max
+- Fukushima's (Neocognitron)
+- View-based representation of objects
+- Poggio's HMAX
+	- Mean tot model human vision at level of "immediate recognition" capabilities of ventral visual pathway, independent of attention/other top down processes
+- Feed forward in visual heirarchy
+- "Standard Model"
+	- Built as a "standard model" of a visual cortex
