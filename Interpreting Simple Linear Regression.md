@@ -17,7 +17,7 @@ print(st.linregress(df['Drinks'],df['Reaction']))
 #### Residual standard error
 A number of quantities use the residuals, $\varepsilon_i = Y_i - \hat{Y}_i$
 
-### Residual sum of squares: $$SSE = \sum_{i=1}^n (Y_i - \hat{Y}_i)^2$$
+### Sum of square residuals: $$SSE = \sum_{i=1}^n (Y_i - \hat{Y}_i)^2$$
 This is SSE, notation SSR used for regression sum of squares
 ### Residual degrees of freedom: $$n-p$$
 where $p$ is the number of regression parameters
