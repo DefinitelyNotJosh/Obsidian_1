@@ -11,7 +11,6 @@ Way to model linear relationship between two quantitative variables using a regr
 ex - house prices, relate square footage to cost
 
 
-
 #### response variable
 variable being modeled or predicted
 - dependent variable, outcome, output
@@ -24,7 +23,8 @@ variables used to predict the response
 - Below the line - Y < E(Y)
 - On the line - Y + E(Y)
 #### Model: $Y=\beta_0+\beta_1X+\epsilon$ where $\epsilon$ is the error term $$\epsilon=Y-E(Y)$$
-$\epsilon$ is a statistical error modeled as a [[Continuous Random Variable]] with a normal distribution that has zero mean and constant variance. Sum of Square Residuals
+$\epsilon$ is a statistical error modeled as a [[Continuous Random Variable]] with a normal distribution that has zero mean and constant variance.
+
 Regression error is:
 - Positive for points above regression line
 - Negative for points below regression line
@@ -40,7 +40,7 @@ method to measure how far line is from points - sum of absolute error of points
 
 #### sum of squared errors
 another measurement of how far the line is from the points
-- sum of the squared differences of the Y values of the data points and the values from the regression line
+- sum of the squared differences of the Y values of the data points and the values from the regression lines: $$SSE = \sum_{i=1}^n (Y_i - \hat{Y}_i)^2$$
 #### least squares method
 another measurement, minimizes sum of squared errors. 
 - For sample with $n$ observations, sum of squared error is $$\sum_{i=1}^n(Y_i-\beta_0-\beta_1X_i)^2$$
@@ -57,7 +57,7 @@ the i'th estimated regression error based on sample simple linear regression lin
 at each value of the predictor, X, probability distribution of the regression error, $\varepsilon = Y - \mathrm{E}(Y) = Y -  \beta_0 - \beta_1 X$:
 - Has a mean of zero
 - has equal variance
-- is normal
+- is normal (sample size >= 30 or pop. known to be normal)
 Value of $\epsilon$ for one observation is independent of $\epsilon$ every other observation
 Should generally only be used if reasonable chance exists that the assumptions hold
 
