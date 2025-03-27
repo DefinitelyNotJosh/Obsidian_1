@@ -19,7 +19,7 @@ type Length = Int
 just like C++
 
 ```
-typeEnv a = Name -> a
+type Env a = Name -> a
 type Matrix a = [[a]]
 ```
 Env is a function from names to some other type
@@ -97,13 +97,13 @@ several useful poly types
 data Maybe a = Just a | Nothing
 data Either a b = Left a | Right b -- left is error, right is OK
 ```
-Maybe - option in rust
+Maybe - option is in rust
 Either - result in rust
 example
 ```
 divide :: Int -> Int -> Maybe Int
 divide x y
- | y /+ 0 && mod x y == 0 = Just (div x y)
+ | y /= 0 && mod x y == 0 = Just (div x y)
  | otherwise              = Nothing
 ```
 
