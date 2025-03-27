@@ -5,6 +5,7 @@ Make a 10 min presentation about the article - findings, shortcomings, etc
 
 #### Potential
 - Hod Lipson - very cool stuff, self-learning robots
+- Yann LeCun
 
 
 
