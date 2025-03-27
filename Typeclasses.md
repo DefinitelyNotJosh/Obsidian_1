@@ -119,7 +119,7 @@ class Num a where
 
 Example
 ```
-data Complelx = Comp Float Float
+data Complex = Comp Float Float
 
 norm :: Complex -> Float
 norm(Comp r i) = sqrt (r*r) (i*i)
