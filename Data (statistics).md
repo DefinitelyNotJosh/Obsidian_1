@@ -324,3 +324,6 @@ more in [[Hypothesis Testing]]
 ### [[Confidence Intervals for Simple Linear Regression]]
 ### [[Testing Simple Linear Regression (SLR) parameters]]
 ### [[ANOVA F-Test]]
+
+## Reading 24
+### [[Multiple Regression]]
