@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -349,11 +349,11 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "5c5363db48a55443",
+  "active": "9d5d4e42d98014c7",
   "lastOpenFiles": [
-    "Multiple Regression.md",
     "Multicollinearity.md",
     "Data (statistics).md",
+    "Multiple Regression.md",
     "Coefficient of Multiple Determination.md",
     "Pasted image 20250322102031.png",
     "ANOVA F-Test.md",

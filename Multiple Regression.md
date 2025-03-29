@@ -104,4 +104,4 @@ non-normally distributed (left)                                      Normally di
 Individual data observations can have a strong influence on multiple regression models
 - Outlier - observations Y value either much larger/smaller than predicted by model
 - High leverage observation - observation in multiple regression analysis that has an extreme combination of predictor values. Could be particularly high or low. High leverage observation has potential to be highly influential on the results of the MRA
-- Multicollinearity - Occurs when 2+ predictors in multiple regression model are so highly correlated the estimated model becomes unstable (regression parameter estimates become unreliable with inflated standard errors)
+- [[Multicollinearity]] - Occurs when 2+ predictors in multiple regression model are so highly correlated the estimated model becomes unstable (regression parameter estimates become unreliable with inflated standard errors)
