@@ -14,4 +14,7 @@ which is the sum of the pop. regression function and the regression error term
 #### Once a population model is proposed, the next step is to estimate the model using sample data to find 
 
 ### Sample multiple regression function: $$\hat{Y} = b_0 + b_1 X_1 + b_2 X_2 + \ldots + b_n X_n$$
-Where $\hat{Y}$
+Where $\hat{Y}$ is the fitted response value and $b_1,b_2,...b_n$ are the estimates for $\beta_0, \beta_1, \ldots, \beta_n$
+
+
+###
