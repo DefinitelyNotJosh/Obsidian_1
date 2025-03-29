@@ -134,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -307,11 +307,11 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "467583a8b5375884",
+  "active": "daa8f35e7bfcbbac",
   "lastOpenFiles": [
+    "Gabor Filter.md",
     "Reinforcement Learning.md",
     "CS-429 Midterm 2.md",
-    "Gabor Filter.md",
     "Principle Component Analysis (PCA).md",
     "Kernel Methods.md",
     "CS-429 HW5.md",
