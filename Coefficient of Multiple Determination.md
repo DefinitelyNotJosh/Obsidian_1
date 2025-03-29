@@ -1,0 +1,2 @@
+#### Denoted by $R^2$, measures ratio of total variance in the response variable Y that is explained by the predictor variables $X_1...,X_n$ $$R^2 =\frac{SSR}{SSTO} = \dfrac{\displaystyle\sum_{i = 1}^N \left( \hat{Y}_i - \overline{Y} \right)^2}{\displaystyle\sum_{i=1}^N (Y_i-\overline{Y})^2}$$
+Where SSR denotes regression sum of squares or variance explained by the predictor variables $X_1, ...X_n, SSTO$ denotes the total sum of squares or the total variance, $N$ is the sample size

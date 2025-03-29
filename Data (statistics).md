@@ -327,3 +327,4 @@ more in [[Hypothesis Testing]]
 
 ## Reading 24
 ### [[Multiple Regression]]
+### [[Coefficient of Multiple Determination]]

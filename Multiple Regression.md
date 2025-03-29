@@ -5,6 +5,10 @@ the variable being modeled or predicted
 #### predictor variables
 variables used to predict response
 
+
+### [[Coefficient of Multiple Determination]]
+
+
 #### Multiple regression model has 2 parts:
 1. Population linear regression function - represents expected value of Y for a given set of values for $X_1, X_2, ...X_n$. Function is: $$\mathrm{E}(Y) = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \ldots + \beta_n X_n$$ where $\beta_0, \beta_1, \beta_2, \ldots, \beta_n$ are regression parameters
 2. Regression error term $\epsilon$ - represents difference between actual value of $Y$ and the expected value of $Y$ given a particular set of values for $X_1, X_2, ... X_n$ 
@@ -73,3 +77,31 @@ Considered valid only if the following assumptions can be made of the population
 
 #### Examples - $Y =$ percentage body fat using predictor variables $X_1=$ triceps skinfold thickness, $X_2=$ midarm circumference, $X_3=$ thigh circumference. 
 Sample size of 20 smaller than typically used, but used for illustration
+
+A residual plot with a non-linear shape suggest violation of the linearity assumption
+
+Nonlinear dataset - left                                         no evidence of nonlinearity - right
+![[Pasted image 20250329141249.png]]
+
+Residual plot with a fan-shaped distribution suggest some data points have a smaller variance than others. Variance not constant suggest violation of homoscedasticity
+
+Heteroscedastic dataset (left)                                      Homoscedastic (right)
+![[Pasted image 20250329141428.png]]
+
+Q-Q used to visually evaluate assumption of normality - plot that deviates from diagonal line suggest violation of normality
+
+non-normally distributed (left)                                      Normally distributed (right)
+![[Pasted image 20250329141725.png]]
+
+##### Remember:
+- Assessing is subjective - question an assumption when a clear non-random pattern exists, don't be concerned w weak patterns
+- Graphically checking requires sample size $\geq 30$
+- All 4 assumption should hold for validity
+- Multiple regression models reasonable robust to mild violations of the assumptions
+- Severe violations can be addressed through complex models
+
+#### Issues w multiple regression
+Individual data observations can have a strong influence on multiple regression models
+- Outlier - observations Y value either much larger/smaller than predicted by model
+- High leverage observation - observation in multiple regression analysis that has an extreme combination of predictor values. Could be particularly high or low. High leverage observation has potential to be highly influential on the results of the MRA
+- Multicollinearity - Occurs when 2+ predictors in multiple regression model are so highly correlated the estimated model becomes unstable (regression parameter estimates become unreliable with inflated standard errors)
