@@ -17,4 +17,59 @@ which is the sum of the pop. regression function and the regression error term
 Where $\hat{Y}$ is the fitted response value and $b_1,b_2,...b_n$ are the estimates for $\beta_0, \beta_1, \ldots, \beta_n$
 
 
-###
+### Python - multiple regression
+The multiple regression model for the body fat example above is constructed using the code below.
+```python
+import pandas as pd
+import statsmodels.formula.api as sms
+
+fat = pd.read_csv('fat.csv')
+
+# Response variable
+Y = fat['body_fat_percent']
+
+# Generates the linear regression model
+# Multiple predictor variables are joined with +
+model = sms.ols('Y ~ triceps_skinfold_thickness_mm + midarm_circumference_cm + thigh_circumference_cm', data = fat).fit()
+
+# Prints the summary
+print(model.summary())
+```
+
+
+### Fitted Values and Residuals
+#### multiple regression fitted value: $$\hat{Y}_i = b_0 + b_1 X_{1i} + b_2 X_{2i} + b_3 X_{3i} + \cdots + b_n X_{ni}$$
+predicted value of $Y$ for the $i$'th sample value of $X_1,X_2,X_3...$ based on the sample regression function
+#### multiple regression residual - $$e_i=Y_i-\hat{Y}_i$$
+is the $i$'th estimated regression error base don the sample multiple regression function
+
+### Python - multiple regression residuals
+```python
+import pandas as pd
+import statsmodels.formula.api as sms
+
+fat = pd.read_csv('https://static-resources.zybooks.com/fat.csv')
+
+# Response variable
+Y = fat['body_fat_percent']
+
+# Generates the linear regression model
+# Multiple predictor variables are joined with +
+model = sms.ols('Y ~ triceps_skinfold_thickness_mm + midarm_circumference_cm + thigh_circumference_cm', data = fat).fit()
+
+# Prints a list of the fitted values for each sample
+print(model.fittedvalues)
+
+# Prints a list of the residuals for each sample
+print(model.resid)
+```
+
+#### Multiple regression assumptions
+Considered valid only if the following assumptions can be made of the population. The sample residuals are used to determine whether each assumption is violated
+- Mean of zero: The mean of each residual for each set of values for the predictor variables is zero. Equivalently, this assumption says that the response variable is a linear function of each of the predictor variables.
+- Independence: The residuals are independent. This condition can be difficult to assess. A common way to determine independence is by plotting residuals with respect to the time in which the data is collected. If a trend exists, then the independence assumption is potentially violated.
+- Normality: The residuals of each set of values for the predictor variables form a normal distribution. If the plotted points lie reasonably close to the diagonal line on the plot then one can conclude that the normality assumption holds.
+- Constant variance: The residuals of each set of values for the predictor variables should have equal or similar variance. A common term for this condition is _homoscedasticity_. If the variance does not remain constant throughout the plot, then the model exhibits _heteroscedasticity_.
+
+#### Examples - $Y =$ percentage body fat using predictor variables $X_1=$ triceps skinfold thickness, $X_2=$ midarm circumference, $X_3=$ thigh circumference. 
+Sample size of 20 smaller than typically used, but used for illustration
