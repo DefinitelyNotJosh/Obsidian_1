@@ -6,4 +6,13 @@
 
 
 #### Interpreting residual standard error
-Like [[Simple Linear Regression (SLR)]], several quantities use residuals $$
+Like [[Simple Linear Regression (SLR)]], several quantities use residuals $\epsilon_i = Y_i - \hat{Y}_i$
+- SSR, SSE, SSTO
+
+Magnitude of residuals indicate strength of a model - closer they are to 0, more effective model is in predicting dependent var
+RMSE at times more useful because residuals can be positive or negative
+#### $$RMSE = \sqrt{MSE} = \sqrt{\dfrac{SSE}{N-p}}$$
+where $N$ is the sample size and $p=n+1$ is the number of regression parameters
+
+#### [[ANOVA F-Test]]
+- RMSE is standard deviation of the residuals $$\sqrt{  \frac{\text{Residual sum\_sq}}{\text{Residual df}}  }$$

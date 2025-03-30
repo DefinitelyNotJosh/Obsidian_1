@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "8c0565301def0f70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ANOVA F-Test.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ANOVA F-Test"
+            }
+          },
+          {
             "id": "9d5d4e42d98014c7",
             "type": "leaf",
             "state": {
@@ -379,14 +393,15 @@
   },
   "active": "963cb599643dd6ba",
   "lastOpenFiles": [
-    "Multiple Regression.md",
+    "ANOVA F-Test.md",
     "Interpreting Multiple Regression Models.md",
+    "One-Way ANOVA.md",
+    "Multiple Regression.md",
     "Data (statistics).md",
     "Variance Inflation Factor.md",
     "Coefficient of Multiple Determination.md",
     "Multicollinearity.md",
     "Pasted image 20250322102031.png",
-    "ANOVA F-Test.md",
     "Pasted image 20250329141725.png",
     "Pasted image 20250329141428.png",
     "Pasted image 20250329141249.png",
@@ -408,7 +423,6 @@
     "Logistic Regression.md",
     "Naive Bayes Classifier.md",
     "Probabilistic Machine Learning.md",
-    "Hypothesis Testing.md",
     "Pasted image 20250322102447.png",
     "Pasted image 20250321103359.png",
     "Pasted image 20250321103021.png",
