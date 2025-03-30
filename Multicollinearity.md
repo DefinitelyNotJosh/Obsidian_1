@@ -1,3 +1,3 @@
 Occurs when 2+ predictors in multiple regression model are so highly correlated the estimated model becomes unstable (regression parameter estimates become unreliable with inflated standard errors)
 - If perfect multicollinearity is present in a dataset, least squares method fails and software used to perform the regression will probably crash
-If predictor variables are not perfectly multicollinear but still highly correlated but still highly corelated, estimates for corresponding regression parameters will be unreliable and sensitive 
+If predictor variables are not perfectly multicollinear but still highly correlated but still highly corelated, estimates for corresponding regression parameters will be unreliable and sensitive x 
