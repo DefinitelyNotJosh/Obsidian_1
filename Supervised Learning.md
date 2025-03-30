@@ -1,3 +1,13 @@
+#### Stats:
+Predict particular feature's value based on other features' values
+- Feature being predicted = target
+Used for both prediction and classification
+
+Common methods used:
+- $k$-nearest neighbors ([[kNN]])
+- Logistic regression
+
+
 #### If supervised:
 
 cluster's diversity index (information entropy)

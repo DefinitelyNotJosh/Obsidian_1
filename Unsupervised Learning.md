@@ -1,4 +1,14 @@
 ### No labels!
+
+### Stats
+do not attempt to predict, identify patterns and relationships in data
+Methods:
+- Clustering most common technique
+	- k-Means and Hierarchical
+- Association rules identify items that "go together" in form of "if-then" statements
+
+
+
 #### Measuring distance between instances is a key
 #### Grouping of unlabeled instances into clusters 
 
