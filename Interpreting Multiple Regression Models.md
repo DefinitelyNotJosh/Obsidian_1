@@ -6,4 +6,4 @@
 
 
 #### Interpreting residual standard error
-Like 
+Like [[Simple Linear Regression (SLR)]], several quantities use residuals $$
