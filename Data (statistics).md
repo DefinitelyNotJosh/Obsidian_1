@@ -336,3 +336,5 @@ more in [[Hypothesis Testing]]
 ### [[Supervised Learning]]
 ### [[Unsupervised Learning]] 
 ### [[Data Cleansing]]
+### [[Data Partitioning]]
+
