@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "963cb599643dd6ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interpreting Multiple Regression Models.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Interpreting Multiple Regression Models"
+            }
+          },
+          {
             "id": "9d5d4e42d98014c7",
             "type": "leaf",
             "state": {
@@ -41,12 +55,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Multicollinearity.md",
+                "file": "Multiple Regression.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multicollinearity"
+              "title": "Multiple Regression"
+            }
+          },
+          {
+            "id": "7071f15ce9a3697e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Variance Inflation Factor.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Variance Inflation Factor"
             }
           },
           {
@@ -176,7 +204,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -349,12 +377,14 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "5c5363db48a55443",
+  "active": "963cb599643dd6ba",
   "lastOpenFiles": [
     "Multiple Regression.md",
-    "Multicollinearity.md",
+    "Interpreting Multiple Regression Models.md",
     "Data (statistics).md",
+    "Variance Inflation Factor.md",
     "Coefficient of Multiple Determination.md",
+    "Multicollinearity.md",
     "Pasted image 20250322102031.png",
     "ANOVA F-Test.md",
     "Pasted image 20250329141725.png",
@@ -379,8 +409,6 @@
     "Naive Bayes Classifier.md",
     "Probabilistic Machine Learning.md",
     "Hypothesis Testing.md",
-    "ANOVA.md",
-    "Tukey Honestly Significant Difference (HSD).md",
     "Pasted image 20250322102447.png",
     "Pasted image 20250321103359.png",
     "Pasted image 20250321103021.png",

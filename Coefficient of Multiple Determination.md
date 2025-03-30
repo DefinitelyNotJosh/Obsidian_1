@@ -7,3 +7,5 @@ Where $N$ is the sample size and $k$ is the number of predictor variables
 
 $R^2_{adj}$ tends to increase when a worthwhile predictor is added to the model
 In general, model $R^2_{adj}$ 
+
+
