@@ -217,8 +217,7 @@
               "title": "Imperative Programming"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -366,14 +365,23 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "9d1788f0561f15be",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 426.5,
-    "collapsed": true
+    "width": 426.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -391,13 +399,14 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "963cb599643dd6ba",
+  "active": "8a0a29e59d4c11d8",
   "lastOpenFiles": [
-    "ANOVA F-Test.md",
+    "Unsupervised Learning.md",
+    "Data (statistics).md",
     "Interpreting Multiple Regression Models.md",
+    "ANOVA F-Test.md",
     "One-Way ANOVA.md",
     "Multiple Regression.md",
-    "Data (statistics).md",
     "Variance Inflation Factor.md",
     "Coefficient of Multiple Determination.md",
     "Multicollinearity.md",
@@ -422,7 +431,6 @@
     "Structured Programming.md",
     "Logistic Regression.md",
     "Naive Bayes Classifier.md",
-    "Probabilistic Machine Learning.md",
     "Pasted image 20250322102447.png",
     "Pasted image 20250321103359.png",
     "Pasted image 20250321103021.png",
