@@ -245,8 +245,7 @@
               "title": "Imperative Programming"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -428,11 +427,11 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "25e5a55a2c20d6f0",
+  "active": "8a0a29e59d4c11d8",
   "lastOpenFiles": [
+    "Unsupervised Learning.md",
     "Data (statistics).md",
     "Supervised Learning.md",
-    "Unsupervised Learning.md",
     "Interpreting Multiple Regression Models.md",
     "ANOVA F-Test.md",
     "One-Way ANOVA.md",
