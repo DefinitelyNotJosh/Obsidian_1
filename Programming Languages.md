@@ -13,6 +13,8 @@ Goal of Programming Languages is to help organize thoughts
 ### [[Haskell]]
 
 ### [[Paradigms]]
+### [[Prolog]]
+
 
 
 
