@@ -12,3 +12,10 @@ Copy and paste abstract intent
 
 Copy and paste methodology
 
+
+Possibilities:
+Quantum Machine Learning Tensor Network States - Biamonte Et Al
+[1804.02398](https://arxiv.org/pdf/1804.02398)
+
+Teaching Robots to Build Simulations of Themselves
+[[2311.12151] Teaching Robots to Build Simulations of Themselves](https://arxiv.org/abs/2311.12151)
