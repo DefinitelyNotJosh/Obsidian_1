@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS-429 Midterm 2.md",
+                "file": "Prolog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CS-429 Midterm 2"
+              "title": "Prolog"
             }
           },
           {
@@ -431,7 +431,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS-429 Midterm 2.md",
+                "file": "Prolog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -441,7 +441,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CS-429 Midterm 2"
+              "title": "Backlinks for Prolog"
             }
           },
           {
@@ -450,12 +450,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS-429 Midterm 2.md",
+                "file": "Prolog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from CS-429 Midterm 2"
+              "title": "Outgoing links from Prolog"
             }
           },
           {
@@ -542,6 +542,7 @@
   },
   "active": "803b8a0b1628232e",
   "lastOpenFiles": [
+    "CS-429 Midterm 2.md",
     "Interpreting Multiple Regression Models.md",
     "Correlation and Coefficient of Determination.md",
     "Coefficient of Multiple Determination.md",
@@ -555,7 +556,6 @@
     "A Posteriori.md",
     "Variance Inflation Factor.md",
     "Imperative Programming.md",
-    "CS-429 Midterm 2.md",
     "Prolog.md",
     "Data Cleansing.md",
     "Unsupervised Learning.md",
