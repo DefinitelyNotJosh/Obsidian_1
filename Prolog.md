@@ -78,7 +78,7 @@ prolog doesn't automatically evaluate
 ```
 using `is` evaluates it
 
-### Make a list
+### LISTS
 Everything in prolog is a linked list (cons list)
 We write the as \[head|tail]
 head is first element
@@ -120,3 +120,32 @@ Z = [1,2,3,4,5,6,7,8,9].
 append(X,[1,2,3,4]).
 ```
 
+#### Member
+`next member/2` checks if something is an element of a list
+First recursively
+- If element is the head of the list, then it's there
+- If not, check the tail
+```
+member(X, [X|T]).
+member(X, H|T) :- member(X,T).
+```
+Way two:
+```
+member(X, L) :- append(A, [X|B], L).
+```
+if there's a way to make a list with free variable A and X with free variable B that is equal to L, then X is indeed a member of the list L
+
+#### Insert
+```
+insert(X,T,XT) :- append(A,  B,    T),
+			      append(A, [X|B], XT).
+
+permute([],[]).
+permute([H|T],P):- permute(T,PT),
+				   insert(H,PT,P).
+
+sorted([]).
+sorted([X]).
+sorted([X,Y|Z]) :- X =< Y, sorted([Y|Z]).
+```
+^ permSort
