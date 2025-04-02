@@ -14,7 +14,7 @@ has many methods
 1. $R^2$ statistic calculated for each predictor var with respect to other predictor vars ($R^2$ calculated for each predictor var as if the predictor var were the response var)
 2. $R^2 \geq 0.8$ generally indicates potential issues with multicollinearity, $R^2 \geq 0.9$ shows enough to cause severe problems
 #### Using [[Variance Inflation Factor]]
-- Higher VIF = greater problemO
+- Higher VIF = greater problem
 - 1 shows no multicollinearity
 - greater than 4 or 5 = multicollinearity problems
 - greater than 10 = serious issues
@@ -22,7 +22,7 @@ has many methods
 
 ### Dealing with Multicollinearity
 If multiple regression fit only being used to predict response variable from predictor variables, multicollinearity not an issue
-- However, must be eliminated for any interpretation of regression coefficients to be meaningful
+- However, must be eliminated for any interpretation of regression coefficients (from [[Correlation and Coefficient of Determination]]) to be meaningful
 Options:
 - If data produced from experiment
 	- change experiment to eliminate multicollinearity

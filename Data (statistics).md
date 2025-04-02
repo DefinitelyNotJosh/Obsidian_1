@@ -40,6 +40,7 @@ Analysis/display of data
 ### Data Collection Methods
 1. Retrospective Study - studying past events
 2. Observational Study - observing events, not interfering
+	1. vulnerable to [[Multicollinearity]]
 3. Designed Experiment - controlled environment to find relationships with more certainty
  
 #### Variability

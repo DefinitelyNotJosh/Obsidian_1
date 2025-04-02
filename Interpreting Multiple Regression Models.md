@@ -10,8 +10,9 @@ Like [[Simple Linear Regression (SLR)]], several quantities use residuals $\epsi
 - SSR, SSE, SSTO
 
 Magnitude of residuals indicate strength of a model - closer they are to 0, more effective model is in predicting dependent var
+##### CLOSER TO 0 IS BETTER
 RMSE at times more useful because residuals can be positive or negative
-#### $$RMSE = \sqrt{MSE} = \sqrt{\dfrac{SSE}{N-p}}$$
+#### $$RMSE = \sqrt{MSE} = \sqrt{\dfrac{SSE}{N-p}}=\sqrt{\frac{\sum(\hat{Y}-\overline{Y})^2}{N-p}}$$
 where $N$ is the sample size and $p=n+1$ is the number of regression parameters
 
 #### [[ANOVA F-Test]]

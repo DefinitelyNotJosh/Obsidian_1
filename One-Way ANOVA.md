@@ -70,8 +70,6 @@ If you reject $H_0$, do [[Tukey Honestly Significant Difference (HSD)]]
 
 
 
-
-
 #### [[Tukey Honestly Significant Difference (HSD)]]
 Gives the 95% confidence intervals for the mean difference between pairwise groups and determines which mean difference is statistically significant. If 0 falls in the confidence interval, then difference between means is not statistically significant
 

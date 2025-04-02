@@ -38,7 +38,7 @@ shows how well a regression equation represents the data
 - denoted as $R^2$
 Gives ratio of the variance in the response variable explained by the predictor variable
 #### $$R^2 = \dfrac{\displaystyle\sum \left(\hat{Y}_i - \overline{Y}\right)^2}{\displaystyle\sum \left(Y_i - \overline{Y}\right)^2}~~ \text{or}~~ R^2=\frac{\text{explained variance}}{\text{total variance}}$$
-where $\hat{Y}_i$ is he estimated value of $Y_i$ and $\overline{Y}$ is the mean of the $Y_i$'s
+where $\hat{Y}_i$ is he estimated value of $Y_i$ (for a given variable $i$) and $\overline{Y}$ is the mean of the $Y_i$'s
 Since the coefficient of determination is the square of the correlation coefficient, $0 \leq R^2 \leq 1$
 
 Value of $R^2$ typically expressed as percentage between 0% and 100%
@@ -46,7 +46,7 @@ Value of $R^2$ typically expressed as percentage between 0% and 100%
 If there's a strong linear relationship between Y and X, SSE will be small and $R^2$ will be high (generally >90%)
 
 ### Python $R^2$
-Suppose a teacher wants to see whether Exam4 scores can be predicted using Exam1 scores. The value for R2 means that only 6.8% of the variance in Exam4 scores can be explained by the variance in Exam1 scores. The low value for R2 suggests that Exam1 is not a good predictor for how well a student would do in Exam4.
+Suppose a teacher wants to see whether Exam4 scores can be predicted using Exam1 scores. The value for $R^2$ means that only 6.8% of the variance in Exam4 scores can be explained by the variance in Exam1 scores. The low value for $R^2$ suggests that Exam1 is not a good predictor for how well a student would do in Exam4.
 ```python
 # The necessary packages are imported
 import pandas as pd
