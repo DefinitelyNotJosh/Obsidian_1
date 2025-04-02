@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prolog.md",
+                "file": "CS-429 Midterm 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prolog"
+              "title": "CS-429 Midterm 2"
             }
           },
           {
@@ -501,9 +501,9 @@
   },
   "active": "6dddf0c8a7f647a7",
   "lastOpenFiles": [
+    "Prolog.md",
     "Logical  Programming.md",
     "Declarative Programming.md",
-    "Prolog.md",
     "Programming Languages.md",
     "Data Partitioning.md",
     "Data (statistics).md",
