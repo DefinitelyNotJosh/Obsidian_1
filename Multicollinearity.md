@@ -3,16 +3,18 @@ Occurs when 2+ predictors in multiple regression model are so highly correlated 
 If predictor variables are not perfectly multicollinear but still highly correlated but still highly correlated, estimates for corresponding regression parameters will be unreliable and sensitive to small changes in the model
 - Severe multicollinearity makes regression coefficients less precise, results in misleading significance levels
 
-Only effects regression parameters of the variables that are multicollinear. Parameters that aren't in a dataset are still valid
+Only effects regression parameters of the variables that are multicollinear. Parameters that aren't multicollinear in a dataset are still valid
 
 
-#### Detecting multicollinearity with the [[Coefficient of Multiple Determination]]
-Detecting multicollinearity has many methods
+#### Detecting multicollinearity
+has many methods
+#### Using [[Correlation and Coefficient of Determination]]
+1. Do Correlation analysis, follow table with resulting R-Value
 #### Using [[Coefficient of Multiple Determination]]
 1. $R^2$ statistic calculated for each predictor var with respect to other predictor vars ($R^2$ calculated for each predictor var as if the predictor var were the response var)
 2. $R^2 \geq 0.8$ generally indicates potential issues with multicollinearity, $R^2 \geq 0.9$ shows enough to cause severe problems
 #### Using [[Variance Inflation Factor]]
-- Higher VIF = greater problem
+- Higher VIF = greater problemO
 - 1 shows no multicollinearity
 - greater than 4 or 5 = multicollinearity problems
 - greater than 10 = serious issues

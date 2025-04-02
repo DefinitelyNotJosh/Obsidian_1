@@ -1,10 +1,14 @@
-Way to model the linear relationship between **one** quantitative response variable and **multiple** predictor variables
+Way to model the linear relationship between:
+- **one** quantitative response variable and 
+- **multiple** predictor variables
 
 #### response variable
 the variable being modeled or predicted
 #### predictor variables
 variables used to predict response
 
+
+##### Own dataset has many X's that will be used to build [[Machine Learning]] model
 
 ### [[Coefficient of Multiple Determination]]
 ### [[Interpreting Multiple Regression Models]]
@@ -60,7 +64,7 @@ Y = fat['body_fat_percent']
 
 # Generates the linear regression model
 # Multiple predictor variables are joined with +
-model = sms.ols('Y ~ triceps_skinfold_thickness_mm + midarm_circumference_cm + thigh_circumference_cm', data = fat).fit()
+model = sms.ols( 'Y ~ triceps_skinfold_thickness_mm + midarm_circumference_cm + thigh_circumference_cm', data = fat ).fit()
 
 # Prints a list of the fitted values for each sample
 print(model.fittedvalues)
