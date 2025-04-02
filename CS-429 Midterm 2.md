@@ -19,3 +19,12 @@ Quantum Machine Learning Tensor Network States - Biamonte Et Al
 
 Teaching Robots to Build Simulations of Themselves
 [[2311.12151] Teaching Robots to Build Simulations of Themselves](https://arxiv.org/abs/2311.12151)
+
+Leave No Context Behind
+[[2404.07143] Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention](https://arxiv.org/abs/2404.07143)
+
+Foundation-Model-Boosted Multimodal Learning for fMRI-based Neuropathic Pain Drug Response Prediction
+[[2503.00210] Foundation-Model-Boosted Multimodal Learning for fMRI-based Neuropathic Pain Drug Response Prediction](https://arxiv.org/abs/2503.00210)
+
+kBLaM: Knowledge Base augmented Language Model
+[[2410.10450] KBLaM: Knowledge Base augmented Language Model](https://arxiv.org/abs/2410.10450)
