@@ -60,7 +60,21 @@ Grandparent(X,Y) - X is the parent of Z, Z is the parent of Y
 cousin - parents are siblings
 second cousin - parents are cousins
 
-Generational difference
+implementations:
+```
+sibling(X,Y) :- parent(P, X), parent(P, Y), X \= Y.
+
+grandparent(X,Y) :- parent(X, Z), parent(Z, Y).
+
+cousin(X,Y) :- parent(P1, X), parent(P2, Y), sibling(P1,P2).
+
+second_cousin(X,Y) :- parent(P1, X), parent(P1, Y), cousin(P1, X).
+
+ancestor(X,Y) :- parent(X,Y).
+ancestor(X,Y) :- parent(Z,Y), ancestor(X,Z).
+```
+
+Generational differences
 ```prolog
 ancestor(X,X,0).
 ancestor(X,Y,N+1) :- parent(Z,Y,...
@@ -145,7 +159,8 @@ permute([H|T],P):- permute(T,PT),
 				   insert(H,PT,P).
 
 sorted([]).
-sorted([X]).
-sorted([X,Y|Z]) :- X =< Y, sorted([Y|Z]).
+sorted([_]).
+sorted([X,Y|Z]) :- X =< Y, sorted([Y|Z]). % Yes, in prolog `<=` is switched around
 ```
-^ permSort
+^ permSort - easy to write, runs in O(N * N!)
+
