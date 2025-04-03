@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -289,8 +289,9 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "f3572da769701569",
+  "active": "b9703ef2c2a40ed2",
   "lastOpenFiles": [
+    "CS-429 Midterm 2.md",
     "Prolog.md",
     "Imperative Programming.md",
     "Unsupervised Learning.md",
@@ -309,7 +310,6 @@
     "Correlation and Coefficient of Determination.md",
     "Multiple Regression.md",
     "One-Way ANOVA.md",
-    "CS-429 Midterm 2.md",
     "ANOVA.md",
     "Data (statistics).md",
     "[Multicollinearity.md",
