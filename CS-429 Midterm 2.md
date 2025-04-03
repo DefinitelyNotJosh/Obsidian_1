@@ -13,7 +13,7 @@ Copy and paste abstract intent
 Copy and paste methodology
 
 
-Possibilities:
+#### Possibilities:
 Quantum Machine Learning Tensor Network States - Biamonte Et Al
 [1804.02398](https://arxiv.org/pdf/1804.02398)
 
@@ -28,3 +28,10 @@ Foundation-Model-Boosted Multimodal Learning for fMRI-based Neuropathic Pain Dru
 
 kBLaM: Knowledge Base augmented Language Model
 [[2410.10450] KBLaM: Knowledge Base augmented Language Model](https://arxiv.org/abs/2410.10450)
+
+
+
+### Meh
+HyperFast
+[[2402.14335] HyperFast: Instant Classification for Tabular Data](https://arxiv.org/abs/2402.14335)
+
