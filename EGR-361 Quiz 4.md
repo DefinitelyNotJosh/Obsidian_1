@@ -30,23 +30,35 @@ Testing safety of cars during 35 mph frontal barrier impact test. Using new fema
 - $\sigma = \sqrt{3}$
 A. Probability of making type II error with only 3 dummies:
 
-First find z-critical - corresponding to 0.01, z = 2.33
+First find z  corresponding to 0.01, $z_\alpha = 2.33$
 
 	$$beta=\phi \left(z_{\alpha}-\frac{\delta\sqrt{n}}{\sigma} \right)-0$$
 $$beta=\phi \left(2.33-\frac{(52 - 50) \sqrt{3}}{\sqrt{3}} \right)-0$$
 $$\beta = \phi(0.33) = 0.6293$$
-The probability of making a type II error with only 3 dummies is around 0.63, or 63%.
+The probability of making a type II error with only 3 dummies is abou 0.63, or 63%.
 
 
 B. What's the sample size needed to reduce the probability of making a type II error to 5% (hoping to find statistically significant difference to justify design changes to make your cars safer for female drivers)
-$$n \approx \frac{(z_{\alpha}+z_\beta)\times\alpha^2}{\delta^2}$$
-$$n \approx \frac{(2.33+z_\beta)\times\alpha^2}{\delta^2}$$
-
+$$n \approx \frac{(z_{\alpha}+z_\beta)^2\times\sigma^2}{\delta^2}$$
+$z_\beta = 1.645$
+$\sigma^2=3$
+$$n \approx \frac{(2.33+1.645)^2\times 3}{(52-50)^2}=11.85 \approx12$$
+The sample size should be at least 12 in order for there to be a statistically significant difference
 
 
 
 ### Problem 3
-Designing new carbon dioxide filtration/processing system for industrial complex. Will collect/analyze gas levels in air from 5 diff locations.
+Designing new carbon dioxide filtration/processing system for industrial complex. Will collect/analyze gas levels in air from 5 different locations.
 - First batch of samples yields proportion of 0.07% carbon dioxide in the air
 
 What's the 90% confidence interval on true proportion of carbon dioxide in the air at the complex?
+
+$$m = z^* \sqrt{\frac{\hat{p}(1 - \hat{p})}{n}}$$
+90% confidence $z^*=1.645$
+
+$$m = 1.645 \sqrt{\frac{0.0007(1 - 0.0007)}{5}}=0.0195$$
+(0.0007 - 0.01945, 0.0007 + 0.01945)
+Interval: (-0.01875, 0.02015)
+Final interval:  (0, 0.0202) -> negative doesn't make sense
+
+The 90% confidence interval is (0, 0.0202) or (0, 2.02%).
