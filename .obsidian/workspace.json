@@ -6,6 +6,7 @@
       {
         "id": "9d27ce2f106f857a",
         "type": "tabs",
+        "dimension": 38.82803943044907,
         "children": [
           {
             "id": "930167d07dfe4288",
@@ -41,12 +42,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "T-Test.md",
+                "file": "Machine Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "T-Test"
+              "title": "Machine Learning"
+            }
+          },
+          {
+            "id": "2c061f853037bb1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Supervised Learning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Supervised Learning"
             }
           },
           {
@@ -92,11 +107,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       },
       {
         "id": "b14e75d4c10b8643",
         "type": "tabs",
+        "dimension": 61.17196056955093,
         "children": [
           {
             "id": "8a0a29e59d4c11d8",
@@ -380,21 +396,23 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "b9703ef2c2a40ed2",
+  "active": "2c061f853037bb1d",
   "lastOpenFiles": [
-    "Data Cleansing.md",
-    "T-Table.md",
+    "Machine Learning.md",
+    "Unsupervised Learning.md",
+    "Supervised Learning.md",
     "T-Test.md",
-    "EGR-361 Quiz 4.md",
-    "T-Distribution - T-Test.md",
-    "T-Confidence Intervals - T-Test.md",
     "Hypothesis Testing Examples.md",
     "Hypothesis Testing.md",
+    "EGR-361 Quiz 4.md",
+    "Logical  Programming.md",
+    "Data Cleansing.md",
+    "T-Table.md",
+    "T-Distribution - T-Test.md",
+    "T-Confidence Intervals - T-Test.md",
     "Prolog.md",
     "CS-429 Midterm 2.md",
     "Imperative Programming.md",
-    "Unsupervised Learning.md",
-    "Supervised Learning.md",
     "Functions in Haskell.md",
     "Interpreting Multiple Regression Models.md",
     "Multicollinearity.md",
@@ -406,8 +424,6 @@
     "Coefficient of Multiple Determination.md",
     "Programming Languages.md",
     "Functional Programming.md",
-    "Correlation and Coefficient of Determination.md",
-    "Multiple Regression.md",
     "Pasted image 20250322102031.png",
     "Pasted image 20250329141725.png",
     "Pasted image 20250329141428.png",

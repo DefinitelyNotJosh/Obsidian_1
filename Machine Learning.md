@@ -37,7 +37,7 @@ if model is overtrained, it can lose the ability to generalize - eg, can't recog
 
 
 ### Methods of Data collection
-Supervised: labeled
+Supervised: labeled - [[Supervised Learning]]
 Unsupervised: unlabeled - [[Unsupervised Learning]]
 Semi-supervised
 

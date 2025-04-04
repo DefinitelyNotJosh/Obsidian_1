@@ -5,6 +5,6 @@ Garbage in, garbage out
 Can include:
 - Handling missing values 
 - Dealing with outliers and erroneous data
-- Feature scaling
+- Feature scaling - normalization
 - [[Dimensionality Reduction]]
 
