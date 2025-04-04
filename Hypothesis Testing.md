@@ -85,7 +85,7 @@ failure to reject a false null hypothesis - false negative
 | Reject $H_0$         | Type I Error  | No error       |
 
 Significance level of a hypothesis, denoted $\alpha$, is the probability of making a type I error
-Probability of making a type II error is denoted $\beta$, 
+Probability of making a type II error is denoted $\beta$
 Power: probability $1-\beta$ of avoiding type II errors
 ### [[Type II Error]]
 

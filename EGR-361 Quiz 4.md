@@ -25,14 +25,22 @@ Must use T-Test, population standard deviation isn't given and sample size is un
 Testing safety of cars during 35 mph frontal barrier impact test. Using new female crash test dummies and comparing them to legacy male version. Looking at head accelerometer readings, trying to tell if they are significantly greater than male version.
 - Historical Male dummies - acceleration normally distributed, mean of 50 g, variance of 3 g.
 - Female dummies - 4 samples, acceleration mean of 52 g, variance of 3 g. 
-
+- $\alpha = 0.01$ (99% confidence specified)
+- Right-tailed Type II error (fail to reject Hypothesis, in this case need value greater than hypothesis)
+- $\sigma = \sqrt{3}$
 A. Probability of making type II error with only 3 dummies:
 
+First find z-critical - corresponding to 0.01, z = 2.33
+
+	$$beta=\phi \left(z_{\alpha}-\frac{\delta\sqrt{n}}{\sigma} \right)-0$$
+$$beta=\phi \left(2.33-\frac{(52 - 50) \sqrt{3}}{\sqrt{3}} \right)-0$$
+$$\beta = \phi(0.33) = 0.6293$$
+The probability of making a type II error with only 3 dummies is around 0.63, or 63%.
 
 
 B. What's the sample size needed to reduce the probability of making a type II error to 5% (hoping to find statistically significant difference to justify design changes to make your cars safer for female drivers)
-
-
+$$n \approx \frac{(z_{\alpha}+z_\beta)\times\alpha^2}{\delta^2}$$
+$$n \approx \frac{(2.33+z_\beta)\times\alpha^2}{\delta^2}$$
 
 
 
