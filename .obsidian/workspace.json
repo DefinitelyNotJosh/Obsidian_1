@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EGR-361 Quiz 4.md",
+                "file": "Prolog.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EGR-361 Quiz 4"
+              "title": "Prolog"
             }
           }
         ],
@@ -221,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EGR-361 Quiz 4.md",
+                "file": "Prolog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +231,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for EGR-361 Quiz 4"
+              "title": "Backlinks for Prolog"
             }
           },
           {
@@ -332,8 +332,8 @@
   },
   "active": "010f7037fc75aea9",
   "lastOpenFiles": [
-    "Confidence Interval for Population Proportions.md",
     "EGR-361 Quiz 4.md",
+    "Confidence Interval for Population Proportions.md",
     "Type II Error Example.md",
     "Type II Error.md",
     "Z-Table.md",
