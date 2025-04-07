@@ -205,6 +205,7 @@ length([_|T], N) :- length(T,M), N is M+1. % built into prolog
 list of vertices a vertex is connected to
 
 ### findall
+will run goal, collect all the Xs that matched, and put them in L
 ```
 findall(X, goal, L) % will run goal, collect all the Xs that matched, and put them in L
 ```
@@ -233,4 +234,105 @@ vertices(V) :- findall(X, und_edge(X, _), V), sort(V).
 ```
 
 #### Bipartite
-A graph is bipartite if there are two sets S and T such that $$V(G)=$$
+A graph is bipartite if there are two sets S and T such that $$V(G)=S\cup T \text{~~and~~}\forall e \in E(G). E \in S \times T$$
+Means that every edges crosses from S to T
+I can split the vertices up such that all the edges cross
+S is the top vertices, T is the bottom vertices
+![[Pasted image 20250407140752.png]]
+
+
+Difficult problem in C/Java, not so difficult in prolog
+
+First, we need to split a list into two lists
+```
+partition([], [], []).
+partition([H|L], [H|S], T) :- partition(L,S,T).
+partition([H|L], S, [H|T]) :- partition(L,S,T).
+```
+Now make sure all edges are from S to T
+```
+crosses(V1, V2, S, T) :- member(V1, S), member(V2, T).
+crosses(V1, V2, S, T) :- member(V1, T), member(V2, S).
+```
+Now a bipartite graph is one where every edge crosses from S to T
+```
+bipartite(S, T) :-
+	vertices(V),
+	partition(V,S,T),
+	edges(Edges),
+	all_cross(Edges,S,T).
+
+all_cross([], _, _).
+all_cross([[V1,V2]|E], S, T) :- 
+	crosses(V1, V2, S, T),
+	all_cross(E, S, T).
+```
+#### Paths
+A path from s to t, is P = s = v1,v2...vn=t, where (vi, vi+1) $\in$ E(G)
+
+What is a path? a list of connected vertices
+```
+path(X,X,[X]).
+path(X,Y,[X|P]) :- edge(X,V), path(V,Y,P).
+```
+looks good, but problem: doesn't ensure we don't go to a place we've already been
+
+Incredibly simple: just keep a list of where you've been
+```
+path(X,X,[X], _).
+path(X,Y,[X|P], Seen) :- 
+	edge(X,V),
+	not(member(V,Seen)),
+	path(V, Y, P, [X|Seen]).
+```
+
+Can simplify bipartite check using `not`
+```
+not_cross(S) :- edge(V1, V2), member(V1,S), member(V2, S).
+
+bipartite(S,T) :-
+	vertives(V),
+	partition(V,S,T),
+	not(has_edge(S)),
+	not(has_edge(T)).
+```
+
+#### Coloring
+A graph K is colorable if we can divide the vertices into K sets, where each set can be colored by the same color
+- Vertices can have the same color if they're not an edge
+
+ex - 3 colorable graph
+![[Pasted image 20250407142404.png]]
+
+Coloring just a more general version of bipartite problem
+
+First partition a list into list of lists
+to partition a list `[H|T]` we break T into two lists Y and Z
+...
+
+```
+partition_list([],[]).
+partition_list([H|T], [[H|Y]|P]) :-
+	partition(T, Y, Z),
+	partition_list(Z, P).
+```
+
+Rest of coloring algorithm is straightforward
+```
+color(Colors) :- 
+	vertices(V),
+	partition_list(V, Colors),
+	not(color_conflict(Colors)).
+
+color_conflict(Colors) :-
+	member(Color, Colors),
+	member(V1, Color),
+	member(V2, Color),
+	edge(V1,V2). % double check this line with slides, copied hastily
+```
+
+"colors" are sets of vertices
+
+
+#### Concepts to know: Findall, not, what the problem with path algorithm cycling is
+
