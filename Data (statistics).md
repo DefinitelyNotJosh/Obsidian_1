@@ -339,3 +339,11 @@ more in [[Hypothesis Testing]]
 ### [[Data Cleansing]]
 ### [[Data Partitioning]]
 
+## Reading 26
+### [[Misleading Statistics]]
+## Reading 27
+### [[Abuse of The P-Value]]
+
+## Reading 28
+### [[Data Privacy]]
+### [[Ethical Guidelines]]

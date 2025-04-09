@@ -13,12 +13,96 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hypothesis Testing.md",
+                "file": "Data (statistics).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hypothesis Testing"
+              "title": "Data (statistics)"
+            }
+          },
+          {
+            "id": "b11cc529a27c0229",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ethical Guidelines.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ethical Guidelines"
+            }
+          },
+          {
+            "id": "31df6183dd75be59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Privacy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Data Privacy"
+            }
+          },
+          {
+            "id": "f2fd4e2b66754f10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Privacy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Data Privacy"
+            }
+          },
+          {
+            "id": "9fd733ce461fe49c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Misleading Statistics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Misleading Statistics"
+            }
+          },
+          {
+            "id": "d5d9bdc2c32f6ece",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Abuse of The P-Value.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Abuse of The P-Value"
+            }
+          },
+          {
+            "id": "d45f3b31d8320a5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Misleading Statistics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Misleading Statistics"
             }
           },
           {
@@ -148,7 +232,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -330,13 +414,20 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "010f7037fc75aea9",
+  "active": "b11cc529a27c0229",
   "lastOpenFiles": [
+    "Ethical Guidelines.md",
+    "Data (statistics).md",
+    "Data Privacy.md",
+    "Misleading Statistics.md",
+    "Abuse of The P-Value.md",
+    "Hypothesis Testing.md",
+    "Hypothesis Testing Examples.md",
+    "Prolog.md",
     "Pasted image 20250407142404.png",
     "Pasted image 20250407142342.png",
     "Pasted image 20250407140752.png",
     "Graphs.md",
-    "Prolog.md",
     "Logical  Programming.md",
     "EGR-361 Quiz 4.md",
     "Confidence Interval for Population Proportions.md",
@@ -346,20 +437,14 @@
     "T-Distribution - T-Test.md",
     "T-Table.md",
     "Z-Test.md",
-    "Hypothesis Testing.md",
     "Data Cleansing.md",
     "Supervised Learning.md",
     "Machine Learning.md",
     "Unsupervised Learning.md",
     "T-Test.md",
-    "Hypothesis Testing Examples.md",
     "T-Confidence Intervals - T-Test.md",
     "CS-429 Midterm 2.md",
     "Imperative Programming.md",
-    "Functions in Haskell.md",
-    "Interpreting Multiple Regression Models.md",
-    "Multicollinearity.md",
-    "ANOVA F-Test.md",
     "Pasted image 20250322102031.png",
     "Pasted image 20250329141725.png",
     "Pasted image 20250329141428.png",
@@ -367,7 +452,6 @@
     "Pasted image 20250322102447.png",
     "Pasted image 20250321103359.png",
     "Pasted image 20250321103021.png",
-    "Pasted image 20250321102927.png",
     "Anchor Seminor 8/28",
     "Anchor Seminor 8",
     "Septuagint",
