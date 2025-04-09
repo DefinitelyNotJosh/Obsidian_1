@@ -62,4 +62,50 @@ Two expressions e1 and e2 unify if there exists some substitution $\sigma$ such 
 Not too complicated
 
 
-What are the unifiers of
+What are the unifiers of:
+```
+append([1,2,3], [4,5], X) and append([H|T], Y, [H|Z])
+	Y = [4,5], H = 1, T = [2,3], X = [1|Z]
+
+end up with: 
+append([1,2,3], [4,5], [1|Z])
+
+
+perm([1,2|X],  [3,2|Y]) and perm([H|T], P)? % practice this
+	H = 1, T = [2|X], P = [3,2|Y]
+
+
+sat(~A \/ B /\ A) and sat(X \/ Y)
+	X = ~A, Y = B /\ A
+```
+
+
+### Backtracking
+Whenever there's a choice, I'm going to make a choice and assume it's the right choice
+- if I succeed, great
+- if not, undo the choice and try again
+Prolog tries both
+
+When you write a query, Prolog searches for a way to make it true
+- every prolog program implicitly defines a tree
+	- Root of tree is initial query (called the goal)
+	- Children of a node are all the branches the node unifies with
+
+The tree is implicit -never actually construct the tree, just to help us understand what's happening
+- In prolog, we use a stack
+
+### SLD resolution
+Standard Linear Definite resolution
+This is how prolog runs programs
+
+We keep track of a stack of goals to check
+- Check the first goal, find rule that matches
+- Add all goals to the right hand side
+- If right hand side fails, pop off the stack and try something else
+
+Try to unify things, pick one of them, if it fail things, try again
+- not a super complicated algorithm
+
+
+Important to know: How unification works (give a unifier), do an SLD resolution with no variables given
+- CHECK SLIDES
