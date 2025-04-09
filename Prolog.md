@@ -336,3 +336,7 @@ color_conflict(Colors) :-
 
 #### Concepts to know: Findall, not, what the problem with path algorithm cycling is
 
+### [[Boolean Algebra]]
+
+
+### [[Prolog Internal Mechanics]]
