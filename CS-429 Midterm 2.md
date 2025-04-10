@@ -35,3 +35,11 @@ kBLaM: Knowledge Base augmented Language Model
 HyperFast
 [[2402.14335] HyperFast: Instant Classification for Tabular Data](https://arxiv.org/abs/2402.14335)
 
+
+
+
+Questions:
+How much energy does running the ANN take - is it negligible?
+Do you know what current car companies use? Their tech/algorithms? Eg, tesla, BYD, are pretty accurate
+
+

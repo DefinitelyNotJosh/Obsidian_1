@@ -237,12 +237,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boolean Algebra.md",
+                "file": "CS-429 Midterm 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Boolean Algebra"
+              "title": "CS-429 Midterm 2"
             }
           }
         ],
@@ -430,8 +430,8 @@
   },
   "active": "67d21404c16fa82b",
   "lastOpenFiles": [
-    "Prolog.md",
     "Boolean Algebra.md",
+    "Prolog.md",
     "Prolog Internal Mechanics.md",
     "Ethical Guidelines.md",
     "Data (statistics).md",
