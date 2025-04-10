@@ -39,7 +39,5 @@ HyperFast
 
 
 Questions:
-How much energy does running the ANN take - is it negligible?
-Do you know what current car companies use? Their tech/algorithms? Eg, tesla, BYD, are pretty accurate
 
 
