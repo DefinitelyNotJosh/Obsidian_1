@@ -291,7 +291,7 @@ Can simplify bipartite check using `not`
 not_cross(S) :- edge(V1, V2), member(V1,S), member(V2, S).
 
 bipartite(S,T) :-
-	vertives(V),
+	vertices(V),
 	partition(V,S,T),
 	not(has_edge(S)),
 	not(has_edge(T)).
