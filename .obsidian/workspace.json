@@ -330,7 +330,7 @@
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -512,10 +512,10 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "4d49a01baa1d6d8f",
+  "active": "010f7037fc75aea9",
   "lastOpenFiles": [
-    "Prolog.md",
     "Boolean Algebra.md",
+    "Prolog.md",
     "Prolog Internal Mechanics.md",
     "Confidence Intervals for Simple Linear Regression.md",
     "Data (statistics).md",
