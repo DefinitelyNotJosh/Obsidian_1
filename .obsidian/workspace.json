@@ -274,6 +274,34 @@
             }
           },
           {
+            "id": "40cb51a5060ea58b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Logical  Programming.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Logical  Programming"
+            }
+          },
+          {
+            "id": "cb05476db81a781d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Declarative Programming.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Declarative Programming"
+            }
+          },
+          {
             "id": "4d49a01baa1d6d8f",
             "type": "leaf",
             "state": {
@@ -514,8 +542,10 @@
   },
   "active": "010f7037fc75aea9",
   "lastOpenFiles": [
-    "Boolean Algebra.md",
+    "Logical  Programming.md",
+    "Declarative Programming.md",
     "Prolog.md",
+    "Boolean Algebra.md",
     "Prolog Internal Mechanics.md",
     "Confidence Intervals for Simple Linear Regression.md",
     "Data (statistics).md",
@@ -540,9 +570,7 @@
     "Pasted image 20250407142342.png",
     "Pasted image 20250407140752.png",
     "Graphs.md",
-    "Logical  Programming.md",
     "EGR-361 Quiz 4.md",
-    "Confidence Interval for Population Proportions.md",
     "Pasted image 20250322102031.png",
     "Pasted image 20250329141725.png",
     "Pasted image 20250329141428.png",

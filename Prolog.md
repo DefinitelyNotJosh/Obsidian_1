@@ -17,7 +17,7 @@ male(harry),
 male(james),
 female(lily),
 parent(james, harry),
-parents(lily, harry)
+parents(lily, harry).
 ```
 Has a database of facts, harry is a male, lily is a female
 
@@ -132,7 +132,8 @@ append is NOT a function. It is a predicate.
 append([[1,2,3],[4,5,6],[7,8,9]], Z).
 Z = [1,2,3,4,5,6,7,8,9].
 
-append(X,[1,2,3,4]).
+append(X,[3,4],[1,2,3,4]).
+X = [1,2].
 ```
 
 #### Member
@@ -142,7 +143,7 @@ First recursively
 - If not, check the tail
 ```
 member(X, [X|T]).
-member(X, H|T) :- member(X,T).
+member(X, [H|T]) :- member(X,T).
 ```
 Way two:
 ```
