@@ -14,6 +14,10 @@
 ### [[Unsupervised Learning]] (Clustering document)
 
 ### [[Supervised Learning]] (Clustering document)
+### [[Recurrent Neural Network]]
+### [[Long Short Term Memory]]
+### [[Gated Recurrent Network]]
+### [[Genetic Algorithms]]
 
 
 ## Week 9-10

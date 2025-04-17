@@ -265,12 +265,68 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prolog.md",
+                "file": "Machine Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prolog"
+              "title": "Machine Learning"
+            }
+          },
+          {
+            "id": "0decb1e29166877b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Genetic Algorithms.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Genetic Algorithms"
+            }
+          },
+          {
+            "id": "029cc1c67a67327f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gated Recurrent Network.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gated Recurrent Network"
+            }
+          },
+          {
+            "id": "a80fea989a79b30e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Long Short Term Memory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Long Short Term Memory"
+            }
+          },
+          {
+            "id": "5f4582139dc89a2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recurrent Neural Network.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Recurrent Neural Network"
             }
           },
           {
@@ -358,7 +414,7 @@
             }
           }
         ],
-        "currentTab": 18
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -540,11 +596,16 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "010f7037fc75aea9",
+  "active": "0decb1e29166877b",
   "lastOpenFiles": [
+    "Genetic Algorithms.md",
+    "Machine Learning.md",
+    "Long Short Term Memory.md",
+    "Gated Recurrent Network.md",
+    "Recurrent Neural Network.md",
+    "Prolog.md",
     "Logical  Programming.md",
     "Declarative Programming.md",
-    "Prolog.md",
     "Boolean Algebra.md",
     "Prolog Internal Mechanics.md",
     "Confidence Intervals for Simple Linear Regression.md",
@@ -563,14 +624,9 @@
     "Ethical Guidelines.md",
     "Data Privacy.md",
     "Misleading Statistics.md",
-    "Abuse of The P-Value.md",
-    "Hypothesis Testing.md",
-    "Hypothesis Testing Examples.md",
     "Pasted image 20250407142404.png",
     "Pasted image 20250407142342.png",
     "Pasted image 20250407140752.png",
-    "Graphs.md",
-    "EGR-361 Quiz 4.md",
     "Pasted image 20250322102031.png",
     "Pasted image 20250329141725.png",
     "Pasted image 20250329141428.png",
